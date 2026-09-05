@@ -1,0 +1,53 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  <!-- Browser Window Mockup -->
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad3)" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Window Header -->
+  <rect width="800" height="46" rx="16" fill="#f8fafc"/>
+  <rect y="30" width="800" height="16" fill="#f8fafc"/>
+  <line x1="0" y1="46" x2="800" y2="46" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="28" cy="23" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="23" r="6" fill="#f59e0b"/>
+  <circle cx="68" cy="23" r="6" fill="#10b981"/>
+  <!-- Address Bar -->
+  <rect x="100" y="10" width="600" height="26" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="120" y="27" font-family="monospace" font-size="12" fill="#64748b">https://student-portfolio.danang.edu/me.html</text>
+
+  <!-- Content of Student Portfolio -->
+  <rect x="50" y="70" width="700" height="120" rx="12" fill="#172f62"/>
+  <circle cx="120" cy="130" r="40" fill="#10b0ec" stroke="#ffffff" stroke-width="3"/>
+  <text x="120" y="137" font-family="'Pretendard', sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">SV</text>
+  <text x="190" y="120" font-family="'Pretendard', sans-serif" font-size="24" font-weight="bold" fill="#ffffff">Nguyễn Văn A (다낭 교원대 1학년)</text>
+  <text x="190" y="150" font-family="'Pretendard', sans-serif" font-size="15" fill="#93c5fd">Future Web Developer · Danang University of Education</text>
+
+  <!-- 3 Cards below -->
+  <rect x="50" y="210" width="215" height="140" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="70" y="240" font-family="'Pretendard', sans-serif" font-size="16" font-weight="bold" fill="#0e599d">📌 About Me</text>
+  <text x="70" y="270" font-family="'Pretendard', sans-serif" font-size="13" fill="#475569">Xin chào! Tôi là sinh viên</text>
+  <text x="70" y="295" font-family="'Pretendard', sans-serif" font-size="13" fill="#475569">khoa Tin học năm nhất.</text>
+
+  <rect x="290" y="210" width="215" height="140" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="310" y="240" font-family="'Pretendard', sans-serif" font-size="16" font-weight="bold" fill="#0e599d">⚡ Skills</text>
+  <rect x="310" y="260" width="55" height="24" rx="4" fill="#eff6ff"/>
+  <text x="323" y="276" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">HTML</text>
+  <rect x="375" y="260" width="50" height="24" rx="4" fill="#eff6ff"/>
+  <text x="390" y="276" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">CSS</text>
+  <rect x="310" y="295" width="80" height="24" rx="4" fill="#fef9c3"/>
+  <text x="325" y="311" font-family="sans-serif" font-size="12" font-weight="bold" fill="#854d0e">JavaScript</text>
+
+  <rect x="535" y="210" width="215" height="140" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="555" y="240" font-family="'Pretendard', sans-serif" font-size="16" font-weight="bold" fill="#0e599d">📬 Contact</text>
+  <text x="555" y="270" font-family="'Pretendard', sans-serif" font-size="13" fill="#475569">Email &amp; Social Link</text>
+  <rect x="555" y="290" width="100" height="28" rx="6" fill="#10b0ec"/>
+  <text x="585" y="308" font-family="'Pretendard', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Say Hello</text>
+
+  <!-- Bottom Guide -->
+  <rect x="220" y="385" width="360" height="38" rx="19" fill="#172f62"/>
+  <text x="400" y="410" font-family="'Pretendard', sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">🎨 학생 8인 전원 포트폴리오 웹페이지 100% 완성</text>
+  <text x="400" y="450" font-family="'Pretendard', sans-serif" font-size="13" fill="#64748b" text-anchor="middle">(실제 학생 작품 캡처 교체 시: images/project_sample.jpg)</text>
+</svg>

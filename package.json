@@ -1,0 +1,12 @@
+{
+  "name": "it-volunteer-presentation",
+  "version": "1.0.0",
+  "description": "Sahmyook University IT Volunteer Presentation",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node watch.js",
+    "pptx": "npx.cmd @marp-team/marp-cli presentation.md -o 삼육대학교_IT해외봉사단_결과보고서.pptx --pptx --html --allow-local-files --no-stdin",
+    "pdf": "npx.cmd @marp-team/marp-cli presentation.md -o 삼육대학교_IT해외봉사단_결과보고서.pdf --pdf --html --allow-local-files --no-stdin",
+    "build:all": "node build.js && npm run pptx && npm run pdf"
+  }
+}

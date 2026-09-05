@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f7fc"/>
+      <stop offset="100%" stop-color="#e1effa"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#172f62"/>
+      <stop offset="100%" stop-color="#0e599d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad)" stroke="#10b0ec" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="400" cy="190" r="55" fill="#0e599d" opacity="0.12"/>
+  <path d="M400 155 A 22 22 0 1 0 400 199 A 22 22 0 1 0 400 155 Z M365 235 C365 212, 435 212, 435 235 Z" fill="#0e599d"/>
+  <circle cx="335" cy="200" r="16" fill="#10b0ec" opacity="0.8"/>
+  <path d="M310 235 C310 220, 360 220, 360 235 Z" fill="#10b0ec" opacity="0.8"/>
+  <circle cx="465" cy="200" r="16" fill="#10b0ec" opacity="0.8"/>
+  <path d="M440 235 C440 220, 490 220, 490 235 Z" fill="#10b0ec" opacity="0.8"/>
+  <rect x="250" y="270" width="300" height="40" rx="20" fill="url(#badgeGrad)"/>
+  <text x="400" y="296" font-family="'Pretendard', sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">📷 봉사단 팀 사진 영역</text>
+  <text x="400" y="345" font-family="'Pretendard', sans-serif" font-size="15" font-weight="bold" fill="#172f62" text-anchor="middle">컴퓨터공학부 3명 + 항공관광외국어학과 1명</text>
+  <text x="400" y="375" font-family="'Pretendard', sans-serif" font-size="13" fill="#64748b" text-anchor="middle">(실제 사진 교체 시: images/team_photo.jpg)</text>
+</svg>
