@@ -17,8 +17,7 @@
 <div style="display: flex; align-items: flex-start; gap: 16px; border-bottom: 1px solid #e2e8f0; padding-bottom: 16px;">
 <div style="width: 42px; height: 42px; border-radius: 50%; background: #1a56db; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 17px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(26, 86, 219, 0.25);">01</div>
 <div>
-<div style="font-size: 17.5px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">Semantic HTML 구조화</div>
-<div style="font-size: 14.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">header, section, footer 등 바른 태그로 웹 문서 골조 완성</div>
+<div style="font-size: 26px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">Semantic HTML 구조화</div>
 </div>
 </div>
 
@@ -26,8 +25,8 @@
 <div style="display: flex; align-items: flex-start; gap: 16px; border-bottom: 1px solid #e2e8f0; padding-bottom: 16px;">
 <div style="width: 42px; height: 42px; border-radius: 50%; background: #0f2b82; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 17px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(15, 43, 130, 0.25);">02</div>
 <div>
-<div style="font-size: 17.5px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">Custom CSS & Flexbox 레이아웃</div>
-<div style="font-size: 14.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">자신만의 개성 있는 테마 컬러와 반응형 정렬로 카드 디자인 구현</div>
+<div style="font-size: 26px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">Custom CSS & Flexbox 레이아웃</div>
+
 </div>
 </div>
 
@@ -35,17 +34,13 @@
 <div style="display: flex; align-items: flex-start; gap: 16px; border-bottom: 1px solid #e2e8f0; padding-bottom: 16px;">
 <div style="width: 42px; height: 42px; border-radius: 50%; background: #0284c7; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 17px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(2, 132, 199, 0.25);">03</div>
 <div>
-<div style="font-size: 17.5px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">JavaScript 동적 인터랙션</div>
-<div style="font-size: 14.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">버튼 클릭 이벤트, 토글, 링크이동 등 동적 기능 제어</div>
+<div style="font-size: 26px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">JavaScript 동적 인터랙션</div>
 </div>
 </div>
 
 <!-- Quote Box -->
 <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #1a56db; padding: 15px 20px; margin-top: 6px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);">
-<div style="font-weight: 900; color: #1a56db; font-size: 15px; margin-bottom: 5px;">"단순 복사 코딩이 아닌 진짜 내 웹사이트"</div>
-<div style="font-size: 13px; color: #475569; line-height: 1.6; word-break: keep-all;">
-학생 전원이 각자의 개성을 담은 사이트를 제작하고 공유하여 개발자로서의 첫 발자국을 내딛었습니다.
-</div>
+<div style="font-weight: 900; color: #1a56db; font-size: 16px; margin-bottom: 5px;">"단순 복사 코딩이 아닌 진짜 내 웹사이트"</div>
 </div>
 
 </div>

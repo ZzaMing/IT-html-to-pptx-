@@ -7,13 +7,16 @@
 
 </div>
 
-<div style="width: 100%; margin: 26px auto 0;">
+<div style="width: 100%; margin: 40px auto 0;">
 
-<!-- SVG Timeline Nodes & Interlocking Chevrons (ZERO INDENTATION) -->
-<svg width="1172" height="135" viewBox="0 0 1172 135" style="display: block;">
+<!-- SVG Timeline Nodes & 200px Enlarged Interlocking Chevrons -->
+<svg width="1172" height="300" viewBox="0 0 1172 300" style="display: block;">
 <defs>
 <filter id="nodeShadow" x="-20%" y="-20%" width="140%" height="140%">
 <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.12" />
+</filter>
+<filter id="chevronShadow" x="-5%" y="-5%" width="110%" height="120%">
+<feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.10" />
 </filter>
 </defs>
 
@@ -49,8 +52,8 @@
 <g transform="translate(586, 38)" filter="url(#nodeShadow)">
 <circle r="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" />
 <circle r="28" fill="none" stroke="#0c64fc" stroke-width="4" stroke-linecap="round" stroke-dasharray="123 176" transform="rotate(-90)" />
-<path d="M -9,-2 A 8.5 8.5 0 1 1 -2,7.5" fill="none" stroke="#0c64fc" stroke-width="2" stroke-linecap="round" />
-<polyline points="-10,-6 -9,-1 -4,-2" fill="none" stroke="#0c64fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M -9,-2 A 8.5 8.5 0 1 1 -2,7.5" fill="none" stroke="#0c64fc" stroke-width="2.5" stroke-linecap="round" />
+<polyline points="-10,-6 -9,-1 -4,-2" fill="none" stroke="#0c64fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
 <path d="M -2,-1 L 1,2 L 6,-3" fill="none" stroke="#0c64fc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
 </g>
 
@@ -72,88 +75,62 @@
 <line x1="-5" y1="9" x2="5" y2="9" stroke="#091b4f" stroke-width="2.2" stroke-linecap="round" />
 </g>
 
-<!-- 5 Interlocking Chevron Arrows (Height: 38, Y: 85 to 123) -->
-<!-- Chevron 1: Step 01 (0 to 223) -->
-<path d="M 4 85 L 217 85 L 233 104 L 217 123 L 4 123 Q 0 123 0 119 L 0 89 Q 0 85 4 85 Z" fill="#16c7fc" />
-<text x="108" y="108.5" font-size="12.5" font-weight="900" fill="#ffffff" text-anchor="middle">Step 01 (Day 1~2)</text>
+<!-- 5 Enlarged Interlocking Chevrons (Height: 200px, Y: 92 to 292) -->
+<!-- Chevron 1: Step 01 (0 to 238) -->
+<g filter="url(#chevronShadow)">
+<path d="M 6 92 L 210 92 L 238 192 L 210 292 L 6 292 Q 0 292 0 286 L 0 98 Q 0 92 6 92 Z" fill="#16c7fc" />
+<text x="110" y="160" font-size="20.5" font-weight="700" fill="rgba(255,255,255,0.92)" text-anchor="middle" letter-spacing="0.04em">Step 01 (Day 1~2)</text>
+<text x="110" y="210" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.02em">
+<tspan x="110" dy="0">HTML5</tspan>
+<tspan x="110" dy="36">기초·구조</tspan>
+</text>
+</g>
 
-<!-- Chevron 2: Step 02 (220 to 461) -->
-<path d="M 220 85 L 455 85 L 471 104 L 455 123 L 220 123 L 236 104 Z" fill="#199cfa" />
-<text x="348" y="108.5" font-size="12.5" font-weight="900" fill="#ffffff" text-anchor="middle">Step 02 (Day 3~4)</text>
+<!-- Chevron 2: Step 02 (214 to 476) -->
+<g filter="url(#chevronShadow)">
+<path d="M 214 92 L 448 92 L 476 192 L 448 292 L 214 292 L 242 192 Z" fill="#199cfa" />
+<text x="348" y="160" font-size="20.5" font-weight="700" fill="rgba(255,255,255,0.92)" text-anchor="middle" letter-spacing="0.04em">Step 02 (Day 3~4)</text>
+<text x="348" y="210" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.02em">
+<tspan x="348" dy="0">CSS3</tspan>
+<tspan x="348" dy="36">스타일·배치</tspan>
+</text>
+</g>
 
-<!-- Chevron 3: Step 03 (458 to 699) -->
-<path d="M 458 85 L 693 85 L 709 104 L 693 123 L 458 123 L 474 104 Z" fill="#0c64fc" />
-<text x="586" y="108.5" font-size="12.5" font-weight="900" fill="#ffffff" text-anchor="middle">Step 03 (Day 5)</text>
+<!-- Chevron 3: Step 03 (452 to 714) -->
+<g filter="url(#chevronShadow)">
+<path d="M 452 92 L 686 92 L 714 192 L 686 292 L 452 292 L 480 192 Z" fill="#0c64fc" />
+<text x="586" y="160" font-size="20.5" font-weight="700" fill="rgba(255,255,255,0.92)" text-anchor="middle" letter-spacing="0.04em">Step 03 (Day 5)</text>
+<text x="586" y="210" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.02em">
+<tspan x="586" dy="0">기본기보강</tspan>
+<tspan x="586" dy="36">&amp; 문화교류</tspan>
+</text>
+</g>
 
-<!-- Chevron 4: Step 04 (696 to 937) -->
-<path d="M 696 85 L 931 85 L 947 104 L 931 123 L 696 123 L 712 104 Z" fill="#0f2b82" />
-<text x="824" y="108.5" font-size="12.5" font-weight="900" fill="#ffffff" text-anchor="middle">Step 04 (Day 6~8)</text>
+<!-- Chevron 4: Step 04 (690 to 952) -->
+<g filter="url(#chevronShadow)">
+<path d="M 690 92 L 924 92 L 952 192 L 924 292 L 690 292 L 718 192 Z" fill="#0f2b82" />
+<text x="822" y="160" font-size="20.5" font-weight="700" fill="rgba(255,255,255,0.92)" text-anchor="middle" letter-spacing="0.04em">Step 04 (Day 6~8)</text>
+<text x="822" y="210" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.02em">
+<tspan x="822" dy="0">JS</tspan>
+<tspan x="822" dy="36">동적 제어</tspan>
+</text>
+</g>
 
-<!-- Chevron 5: Step 05 (934 to 1172) -->
-<path d="M 934 85 L 1156 85 L 1172 104 L 1156 123 L 934 123 L 950 104 Z" fill="#091b4f" />
-<text x="1062" y="108.5" font-size="12.5" font-weight="900" fill="#ffffff" text-anchor="middle">Step 05 (Day 9~10)</text>
+<!-- Chevron 5: Step 05 (928 to 1172) -->
+<g filter="url(#chevronShadow)">
+<path d="M 928 92 L 1144 92 L 1172 192 L 1144 292 L 928 292 L 956 192 Z" fill="#091b4f" />
+<text x="1053" y="160" font-size="20" font-weight="700" fill="rgba(255,255,255,0.92)" text-anchor="middle" letter-spacing="0.04em">Step 05 (Day 9~10)</text>
+<text x="1053" y="210" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.02em">
+<tspan x="1046" dy="0">웹 완성</tspan>
+<tspan x="1046" dy="36">&amp; 수료</tspan>
+</text>
+</g>
 </svg>
 
-<!-- 5 Column Content Cards (HTML Grid with Balanced High-Density Content) -->
-<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 22px;">
-
-<!-- Column 1: HTML 기초 & 구조화 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #16c7fc; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
-  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">HTML5 기초·구조</div>
-  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
-    <div>• 웹 원리 &amp; 환경 구축</div>
-    <div>• 시맨틱 태그 골조 완성</div>
-    <div>• 폼 &amp; 입력 컴포넌트</div>
-  </div>
-</div>
-
-<!-- Column 2: CSS 스타일 & 레이아웃 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #199cfa; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
-  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">CSS3 스타일·배치</div>
-  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
-    <div>• 박스 모델 (Box Model)</div>
-    <div>• Flexbox 반응형 정렬</div>
-    <div>• 카드 UI 컴포넌트 구현</div>
-  </div>
-</div>
-
-<!-- Column 3: 기본기 보강 & 문화교류 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0c64fc; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
-  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">진도보강 &amp; 문화교류</div>
-  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
-    <div>• 1:1 오류 케어 &amp; 복습</div>
-    <div>• K-전통놀이 체험 (윷놀이)</div>
-    <div>• 학습 친밀도·라포 형성</div>
-  </div>
-</div>
-
-<!-- Column 4: JavaScript 동적 인터랙션 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
-  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">JS 동적 제어</div>
-  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
-    <div>• 핵심 문법 &amp; DOM 조작</div>
-    <div>• 클릭·토글 인터랙션</div>
-    <div>• F12 콘솔 디버깅 훈련</div>
-  </div>
-</div>
-
-<!-- Column 5: Project & 최종 쇼케이스 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #091b4f; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
-  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">웹 완성 &amp; 수료</div>
-  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
-    <div>• 자기소개 웹페이지 완성</div>
-    <div>• 개별 완성작 라이브 발표</div>
-    <div>• 최종 수료식 &amp; 성취 공유</div>
-  </div>
-</div>
-
-</div>
-
 <!-- Bottom Strategy Summary Bar -->
-<div class="biz-alert-bar" style="margin-top: 22px; border-left: 4px solid #1a56db; padding: 12px 18px;">
-  <span class="biz-alert-icon">!</span>
-  <div style="font-size: 14.5px; font-weight: 700; color: #0f172a;">
-    <strong>점진적 빌드업 전략 :</strong> '골격(HTML) ➔ 스타일(CSS) ➔ 보강·문화교류 ➔ 동적 제어(JS) ➔ 완성작 발표'로 입문자 전원 100% 완주
+<div class="biz-alert-bar" style="margin-top: 30px; border-left: 4px solid #1a56db; padding: 15px 22px;">
+  <div style="font-size: 18px; font-weight: 700; color: #0f172a; line-height: 1.5;">
+    <strong>점진적 빌드업 전략 :</strong> '골격(HTML) ➔ 스타일(CSS) ➔ 보강·문화교류 ➔ 동적 제어(JS) ➔ 완성작 발표'의 실습 설계를 적용
   </div>
 </div>
 

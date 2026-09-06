@@ -83,6 +83,25 @@ function autoResolveImages(markdownContent) {
   });
 }
 
+// Defensive style sanitizer:
+// Automatically detects and fixes editor auto-formatting corruptions
+// (e.g., Prettier/VS Code stripping 2-space YAML block scalar indentation or converting /* */ to /_ _/)
+function sanitizeStyleContent(content) {
+  let text = content.replace(/\/_/g, '/*').replace(/_\//g, '*/');
+  const lines = text.split(/\r?\n/);
+  const styleIdx = lines.findIndex(l => l.trim().startsWith('style:'));
+  if (styleIdx !== -1) {
+    for (let i = styleIdx + 1; i < lines.length; i++) {
+      if (lines[i].trim() === '---') break;
+      if (lines[i].trim().length > 0 && !lines[i].startsWith('  ')) {
+        lines[i] = '  ' + lines[i];
+      }
+    }
+    text = lines.join('\n');
+  }
+  return text;
+}
+
 function build() {
   const startTime = Date.now();
   console.log('[BUILD] Merging slides & resolving images...');
@@ -104,7 +123,15 @@ function build() {
   }
 
   const parts = [];
-  parts.push(fs.readFileSync(path.join(slidesDir, styleFile), 'utf8').trim());
+  let rawStyle = fs.readFileSync(path.join(slidesDir, styleFile), 'utf8').trim();
+  const sanitizedStyle = sanitizeStyleContent(rawStyle);
+  if (sanitizedStyle !== rawStyle) {
+    console.log('[AUTO-FIX] slides/_style.md formatting was corrected automatically!');
+    try {
+      fs.writeFileSync(path.join(slidesDir, styleFile), sanitizedStyle + '\n', 'utf8');
+    } catch (e) {}
+  }
+  parts.push(sanitizedStyle);
 
   slideFiles.forEach(file => {
     let raw = fs.readFileSync(path.join(slidesDir, file), 'utf8').trim();

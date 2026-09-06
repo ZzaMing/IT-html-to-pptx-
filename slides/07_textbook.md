@@ -8,37 +8,29 @@
 </div>
 
 <!-- Top 3 Feature Cards with Left Accent Bar (Width: 1040px) -->
-<div style="width: 1040px; margin: 12px auto 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; word-break: keep-all;">
+<div style="width: 1040px; margin: 40px auto 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; word-break: keep-all;">
 
 <!-- Card 1 -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #1a56db; border-radius: 6px; padding: 12px 16px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column;">
-<div style="font-size: 16px; font-weight: 900; color: #1a56db; margin-bottom: 6px;">1. 이중언어 병기 (Bilingual)</div>
-<div style="font-size: 13.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">
-<strong>영어 · 베트남어 1:1 교안</strong><br>
-베트남어 설명을 수록하여 언어 장벽을 덜어냄<br>
-<span style="color: #1a56db; font-weight: 700; display: inline-block; margin-top: 4px;">➔ Xây dựng trang web đầu tiên</span>
+<div style="font-size: 26px; font-weight: 900; color: #1a56db; margin-bottom: 6px;">1. 이중언어 병기</div>
+<div style="font-size: 18px; color: #1e293b; line-height: 1.6; font-weight: 500;">
+<strong>• 영어 · 베트남어 1:1 교안</strong><br>
 </div>
 </div>
 
 <!-- Card 2 -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0f2b82; border-radius: 6px; padding: 12px 16px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column;">
-<div style="font-size: 16px; font-weight: 900; color: #0f2b82; margin-bottom: 6px;">2. 일상 비유 메타포</div>
-<div style="font-size: 13.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">
-<strong>눈높이에 맞춘 비유 설명</strong><br>
-• HTML/CSS: 집 건축 골조 & 인테리어<br>
-• JS: 전기 배선 & 도어락 제어<br>
-• 변수/배열: 이름표 상자와 계란판
+<div style="font-size: 26px; font-weight: 900; color: #0f2b82; margin-bottom: 6px;">2. 일상 비유 메타포</div>
+<div style="font-size: 18px; color: #1e293b; line-height: 1.6; font-weight: 500;">
+<strong>• 실생활 비유 설명</strong>
 </div>
 </div>
 
 <!-- Card 3 -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; border-radius: 6px; padding: 12px 16px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column;">
-<div style="font-size: 16px; font-weight: 900; color: #0284c7; margin-bottom: 6px;">3. 실전 개발자 훈련</div>
-<div style="font-size: 13.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">
-<strong>스스로 해결하는 힘 배양</strong><br>
-• 디지털 자습 교재(PDF 185p) 전원 제공<br>
-• F12 콘솔 에러 추적 & console.log()<br>
-• 단계별 퀴즈로 이해도 즉시 점검
+<div style="font-size: 26px; font-weight: 900; color: #0284c7; margin-bottom: 6px;">3. 생각하는 개발 훈련</div>
+<div style="font-size: 18px; color: #1e293b; line-height: 1.6; font-weight: 500;">
+<strong>• 단계별 퀴즈로 이해도 즉시 점검</strong>
 </div>
 </div>
 
