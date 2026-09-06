@@ -4,7 +4,7 @@
 <span class="biz-header-tag">09 CHALLENGE & SOLUTION</span>
 <h2 class="biz-header-title">어려움 극복 스토리: 4단계 완주 여정</h2>
 </div>
-<span class="biz-header-sub">현장의 돌발 변수를 민첩한 튜닝과 밀착 케어로 돌파하며 이뤄낸 성장</span>
+
 </div>
 
 <!--
@@ -21,9 +21,9 @@
   <div style="position: absolute; left: 495px; top: 25px; width: 375px; border-top: 2.5px solid #091e42; padding-top: 8px; z-index: 2; border-left: 2.5px solid #091e42; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #091e42; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 04</span>
-      <span style="color: #091e42; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">최종 완주 </span>
+      <span style="color: #091e42; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">최종 완주</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • 끝까지 포기하지 않고 도전한 수료생들의 프로젝트 발표
     </div>
     <div style="font-size: 12px; color: #0284c7; font-weight: 750; line-height: 1.4; white-space: nowrap;">
@@ -37,9 +37,9 @@
   <div style="position: absolute; left: 390px; top: 145px; width: 375px; border-top: 2.5px solid #0f2b82; padding-top: 8px; z-index: 2; border-left: 2.5px solid #0f2b82; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #0f2b82; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 03</span>
-      <span style="color: #0f2b82; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">실습 격차 밀착 케어</span>
+      <span style="color: #0f2b82; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">실습 격차 밀착 케어</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • 보조 멘토 2인 전담 마크로 빠른 에러 해결
     </div>
     <div style="font-size: 12px; color: #0f2b82; font-weight: 750; line-height: 1.4; white-space: nowrap;">
@@ -53,25 +53,25 @@
   <div style="position: absolute; left: 270px; top: 265px; width: 375px; border-top: 2.5px solid #1a56db; padding-top: 8px; z-index: 2; border-left: 2.5px solid #1a56db; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #1a56db; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 02</span>
-      <span style="color: #1a56db; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">학습 부담 완화</span>
+      <span style="color: #1a56db; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">학습 부담 완화</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • Day 5 중간과제 유연화 (기초 문법 복습으로 전환)
     </div>
     <div style="font-size: 12px; color: #1a56db; font-weight: 750; line-height: 1.4; white-space: nowrap;">
-      ➔ 윷놀이·딱지치기 문화교류를 통한 학습 피로도 리프레시
+      ➔ 중도 포기자 0명 전원 수료 달성
     </div>
   </div>
 
   <!-- ============================================== -->
-  <!-- STEP 01 (언어 극복) -->
+  <!-- STEP 01 (언어 장벽) -->
   <!-- ============================================== -->
-  <div style="position: absolute; left: 145px; top: 377px; width: 375px; border-top: 2.5px solid #0284c7; padding-top: 8px; z-index: 2; border-left: 2.5px solid #0284c7; padding-left: 10px;">
+  <div style="position: absolute; left: 150px; top: 385px; width: 375px; border-top: 2.5px solid #0284c7; padding-top: 8px; z-index: 2; border-left: 2.5px solid #0284c7; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #0284c7; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 01</span>
-      <span style="color: #0284c7; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">언어 장벽 극복</span>
+      <span style="color: #0284c7; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">언어 장벽 극복</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • 어학 단원 상주 실시간 3자 통역 루프 가동
     </div>
     <div style="font-size: 12px; color: #0284c7; font-weight: 750; line-height: 1.4; white-space: nowrap;">

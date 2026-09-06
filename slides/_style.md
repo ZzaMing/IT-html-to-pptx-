@@ -46,21 +46,20 @@ style: |
   }
   .biz-header-tag {
     color: var(--blue-primary);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 800;
     letter-spacing: 0.08em;
   }
   .biz-header-title {
     color: var(--slate-900);
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 900;
     margin: 0;
     letter-spacing: -0.02em;
+    line-height: 1.2;
   }
   .biz-header-sub {
-    font-size: 13px;
-    color: var(--slate-500);
-    font-weight: 500;
+    display: none;
   }
 
   /* Full-width alert bar (PPT BIZCAM Ref 1) */

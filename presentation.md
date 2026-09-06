@@ -46,21 +46,20 @@ style: |
   }
   .biz-header-tag {
     color: var(--blue-primary);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 800;
     letter-spacing: 0.08em;
   }
   .biz-header-title {
     color: var(--slate-900);
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 900;
     margin: 0;
     letter-spacing: -0.02em;
+    line-height: 1.2;
   }
   .biz-header-sub {
-    font-size: 13px;
-    color: var(--slate-500);
-    font-weight: 500;
+    display: none;
   }
 
   /* Full-width alert bar (PPT BIZCAM Ref 1) */
@@ -139,128 +138,136 @@ style: |
 
 ---
 
-<!-- Slide 2: 01 활동 개요 (PPT BIZCAM Overlapping Badges & Cards) -->
+<!-- Slide 2: 01 팀 구성 및 시너지 (High Contrast & Presentation Mode) -->
 <div class="biz-header">
 <div class="biz-header-left">
-<span class="biz-header-tag">01 OVERVIEW</span>
-<h2 class="biz-header-title">활동 개요</h2>
-</div>
-<span class="biz-header-sub">베트남 다낭 교원대학교 파견 10일 집중 교육</span>
-</div>
-
-<div style="display: flex; align-items: center; justify-content: center; margin-top: 15px; margin-bottom: 40px;">
-<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
-<div style="font-size: 30px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">15<span style="font-size: 18px;">일</span></div>
-<div style="font-size: 14px; font-weight: 800; color: #475569;">07.12 ~ 07.27</div>
-</div>
-
-<svg width="70" height="120" viewBox="0 0 70 120" style="margin-left: -26px; margin-right: 0px; z-index: 1; overflow: visible; flex-shrink: 0;">
-<polygon points="0,15 70,60 0,105" fill="#1a56db" />
-</svg>
-
-<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
-<div style="font-size: 26px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">수강생</div>
-<div style="font-size: 14px; font-weight: 800; color: #475569;">입문자 맞춤형 강의</div>
-</div>
-
-<svg width="70" height="120" viewBox="0 0 70 120" style="margin-left: -26px; margin-right: 0px; z-index: 1; overflow: visible; flex-shrink: 0;">
-<polygon points="0,15 70,60 0,105" fill="#1a56db" />
-</svg>
-
-<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
-<div style="font-size: 28px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">50<span style="font-size: 16px;">시간</span></div>
-<div style="font-size: 14px; font-weight: 800; color: #475569;">단계별 빌드업</div>
-</div>
-
-<svg width="70" height="120" viewBox="0 0 70 120" style="margin-left: -26px; margin-right: 0px; z-index: 1; overflow: visible; flex-shrink: 0;">
-<polygon points="0,15 70,60 0,105" fill="#1a56db" />
-</svg>
-
-<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
-<div style="font-size: 26px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">프로젝트</div>
-<div style="font-size: 14px; font-weight: 800; color: #475569;">자기소개 페이지 구상</div>
+<span class="biz-header-tag">01 TEAM SYNERGY</span>
+<h2 class="biz-header-title">팀 구성 및 협업 시너지</h2>
 </div>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-bottom: 34px;">
-<div style="background: #f8fafc; border-left: 5px solid #1a56db; padding: 20px 24px;">
-<div style="margin-bottom: 8px;">
-<span style="font-size: 16px; font-weight: 900; color: #1a56db;">핵심 교육 목표</span>
+<div style="display: grid; grid-template-columns: 1.05fr 1fr; gap: 36px; align-items: center; margin-top: 15px;">
+
+<!-- Left: Role & Synergy Cards -->
+<div style="display: flex; flex-direction: column; gap: 20px;">
+
+<!-- 1. IT 교육 담당 (컴퓨터공학부) -->
+<div style="border-left: 6px solid #1a56db; padding-left: 20px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<span style="font-size: 20px; font-weight: 900; color: #1a56db;">컴퓨터공학부</span>
+<span style="font-size: 15px; font-weight: 800; color: #0f172a;">김예원 · 박정우 · 조명현</span>
+<span style="background: #1a56db; color: #ffffff; font-size: 11.5px; font-weight: 800; padding: 3px 9px; border-radius: 4px; white-space: nowrap;">IT 교육 총괄</span>
 </div>
-<div style="font-size: 15px; font-weight: 800; color: #0f172a; margin-bottom: 8px;">자기주도적 디지털 표현 역량 강화</div>
-<div style="font-size: 13px; color: #475569; line-height: 1.7;">
-• 단순 문법 암기가 아닌, 웹 구조와 스타일을 유기적으로 조합하는 실습 지도<br>
-• 학생 개개인의 스토리와 비전을 담은 <strong>첫 웹 사이트 주도적 완성</strong><br>
-• 개발에 대한 효능감 및 향후 진로 자신감 고취
+<div style="font-size: 15px; color: #1e293b; line-height: 1.75; font-weight: 600;">
+• <strong>10일 완성 웹 커리큘럼</strong>(HTML·CSS·JS) 기획 및 메인 강의<br>
+• 강사 1인 + 보조 멘토 2인의 <strong>1:2 밀착 실습 케어</strong><br>
+• 학생별 오류 발생 시 즉각적인 <strong>실시간 1:1 디버깅</strong> 지원
 </div>
 </div>
 
-<div style="background: #f8fafc; border-left: 5px solid #0f2b82; padding: 20px 24px;">
-<div style="margin-bottom: 8px;">
-<span style="font-size: 16px; font-weight: 900; color: #0f2b82;">특화 운영 전략</span>
+<!-- Synergy Connector -->
+<div style="display: flex; align-items: center; gap: 12px; padding-left: 20px;">
+<div style="width: 32px; height: 32px; border-radius: 50%; background: #1a56db; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; box-shadow: 0 3px 8px rgba(26, 86, 219, 0.25);">+</div>
+<span style="font-size: 14.5px; font-weight: 900; color: #0f2b82; letter-spacing: 0.04em;">전공 융합 시너지 (Convergence Synergy)</span>
 </div>
-<div style="font-size: 15px; font-weight: 800; color: #0f172a; margin-bottom: 8px;">밀착 멘토링 &amp; 현장 맞춤 지원</div>
-<div style="font-size: 13px; color: #475569; line-height: 1.7;">
-• <strong>실시간 디버깅:</strong> 메인 발표자 1인 + 보조 멘토 2인의 빠른 피드백 및 에러 해결<br>
-• <strong>언어 장벽 극복:</strong> 영어·베트남어 자체 교안 및 통역 가동<br>
-• <strong>유연한 진도 조절:</strong> 학생의 이해 속도에 맞춘 5일차 기본기 보강 강의 진행
+
+<!-- 2. 통역 & 라포 (항공관광외국어학부) -->
+<div style="border-left: 6px solid #0f2b82; padding-left: 20px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+<span style="font-size: 20px; font-weight: 900; color: #0f2b82;">항공관광외국어학부</span>
+<span style="font-size: 15px; font-weight: 800; color: #0f172a;">허서정</span>
+<span style="background: #0f2b82; color: #ffffff; font-size: 11.5px; font-weight: 800; padding: 3px 9px; border-radius: 4px; white-space: nowrap;">통역 &amp; 라포</span>
 </div>
+<div style="font-size: 15px; color: #1e293b; line-height: 1.75; font-weight: 600;">
+• 복잡한 프로그래밍 개념을 <strong>쉬운 영어로 실시간 통역</strong><br>
+• 아이스 브레이킹 및 <strong>수업 몰입도 분위기 메이킹</strong><br>
+• 수업 전후 정서 케어로 현지 학생들과 <strong>신뢰 라포 구축</strong>
 </div>
 </div>
 
-<div class="biz-alert-bar" style="margin-top: 0; padding: 14px 20px;">
-<div class="biz-alert-icon">!</div>
-<div style="font-size: 13.5px; line-height: 1.5; color: #334155;">
-<strong>핵심 성과 요약 :</strong> 50시간의 집중 실습과 밀착 멘토링을 통해, 코딩 경험이 없던 입문자 학생들이 자신만의 웹 포트폴리오 개발을 성공적으로 완주했습니다.
 </div>
+
+<!-- Right: 4-Member Team Back Photo -->
+<div class="biz-photo" style="height: 460px; border-radius: 10px; border: 1px solid #cbd5e1; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); overflow: hidden; background: #ffffff;">
+<img src="images/team_photo.JPG" alt="봉사단 팀 사진" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+</div>
+
 </div>
 
 ---
 
-<!-- Slide 3: 02 팀 구성 및 시너지 (Open Layout, High Contrast) -->
+<!-- Slide 3: 02 활동 개요 (High Contrast & Presentation Mode) -->
 <div class="biz-header">
 <div class="biz-header-left">
-<span class="biz-header-tag">02 TEAM SYNERGY</span>
-<h2 class="biz-header-title">팀 구성 및 시너지</h2>
-</div>
-<span class="biz-header-sub">컴퓨터공학 IT 교육 3인 + 외국어 통역·라포 1인의 유기적 결합</span>
-</div>
-
-<div style="display: grid; grid-template-columns: 1fr 1.05fr; gap: 32px; align-items: center; margin-top: 15px;">
-<div style="display: flex; flex-direction: column; gap: 16px;">
-<div style="border-left: 5px solid #1a56db; padding-left: 20px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
-<span style="font-size: 19px; font-weight: 900; color: #1a56db;">컴퓨터공학부 (김예원 / 박정우 / 조명현)</span>
-<span style="background: #1a56db; color: #ffffff; font-size: 11px; font-weight: 800; padding: 2px 8px; white-space: nowrap;">IT 교육 담당</span>
-</div>
-<div style="font-size: 14px; color: #475569; line-height: 1.7;">
-• 10일 완성 웹 커리큘럼(HTML·CSS·JS) 기획 및 메인 강의<br>
-• 메인 강사 1인 + 보조 멘토 2인의 케어 수업<br>
-• 학생별 에러 발생 시 즉각적인 1:1 디버깅 지원
+<span class="biz-header-tag">02 OVERVIEW</span>
+<h2 class="biz-header-title">프로젝트 활동 개요</h2>
 </div>
 </div>
 
-<div style="display: flex; align-items: center; gap: 12px; padding-left: 20px; margin: 2px 0;">
-<div style="width: 30px; height: 30px; border-radius: 50%; background: #1a56db; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 16px; box-shadow: 0 2px 6px rgba(26, 86, 219, 0.25);">+</div>
-<span style="font-size: 13px; font-weight: 800; color: #64748b; letter-spacing: 0.05em;">협업 시너지</span>
+<!-- 4 Key Impact Circles -->
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 15px; margin-bottom: 35px;">
+<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
+<div style="font-size: 32px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">15<span style="font-size: 18px;">일</span></div>
+<div style="font-size: 14.5px; font-weight: 800; color: #1e293b;">07.12 ~ 07.27</div>
 </div>
 
-<div style="border-left: 5px solid #0f2b82; padding-left: 20px;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
-<span style="font-size: 19px; font-weight: 900; color: #0f2b82;">항공관광외국어학부 (허서정)</span>
-<span style="background: #0f2b82; color: #ffffff; font-size: 11px; font-weight: 800; padding: 2px 8px; white-space: nowrap;">통역 &amp; 라포</span>
+<svg width="70" height="120" viewBox="0 0 70 120" style="margin-left: -26px; margin-right: 0px; z-index: 1; overflow: visible; flex-shrink: 0;">
+<polygon points="0,15 70,60 0,105" fill="#1a56db" />
+</svg>
+
+<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
+<div style="font-size: 28px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">입문자</div>
+<div style="font-size: 14.5px; font-weight: 800; color: #1e293b;">다낭교원대 맞춤강의</div>
 </div>
-<div style="font-size: 14px; color: #475569; line-height: 1.7;">
-• 복잡한 프로그래밍 개념을 알기 쉬운 영어로 실시간 통역<br>
-• 아이스 브레이킹 및 분위기 메이킹<br>
-• 수업 전후 학생 정서 케어 및 친밀한 라포 형성 주도
+
+<svg width="70" height="120" viewBox="0 0 70 120" style="margin-left: -26px; margin-right: 0px; z-index: 1; overflow: visible; flex-shrink: 0;">
+<polygon points="0,15 70,60 0,105" fill="#1a56db" />
+</svg>
+
+<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
+<div style="font-size: 30px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">50<span style="font-size: 17px;">시간</span></div>
+<div style="font-size: 14.5px; font-weight: 800; color: #1e293b;">집중 실습 빌드업</div>
+</div>
+
+<svg width="70" height="120" viewBox="0 0 70 120" style="margin-left: -26px; margin-right: 0px; z-index: 1; overflow: visible; flex-shrink: 0;">
+<polygon points="0,15 70,60 0,105" fill="#1a56db" />
+</svg>
+
+<div style="width: 170px; height: 170px; border-radius: 50%; border: 4px solid #1a56db; background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; box-sizing: border-box; padding: 12px; z-index: 2; position: relative;">
+<div style="font-size: 28px; font-weight: 900; color: #1a56db; line-height: 1; margin-bottom: 8px;">100%</div>
+<div style="font-size: 14.5px; font-weight: 800; color: #1e293b;">나만의 웹 완성</div>
+</div>
+</div>
+
+<!-- 2 Core Strategy Cards -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-bottom: 28px;">
+<div style="background: #f8fafc; border-left: 6px solid #1a56db; border-radius: 4px; padding: 20px 24px; box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);">
+<div style="margin-bottom: 8px;">
+<span style="font-size: 18px; font-weight: 900; color: #1a56db;">🎯 핵심 교육 목표</span>
+</div>
+<div style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">자기주도적 디지털 표현 역량 강화</div>
+<div style="font-size: 14.5px; color: #1e293b; line-height: 1.7; font-weight: 600;">
+• 단순 문법 암기 탈피 ➔ <strong>실습 중심의 웹 구조·스타일링 체득</strong><br>
+• 학생 개개인의 스토리를 담은 <strong>첫 웹사이트 100% 완주 성취</strong>
+</div>
+</div>
+
+<div style="background: #f8fafc; border-left: 6px solid #0f2b82; border-radius: 4px; padding: 20px 24px; box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);">
+<div style="margin-bottom: 8px;">
+<span style="font-size: 18px; font-weight: 900; color: #0f2b82;">⚡ 특화 운영 전략</span>
+</div>
+<div style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">밀착 멘토링 &amp; 실시간 소통 루프</div>
+<div style="font-size: 14.5px; color: #1e293b; line-height: 1.7; font-weight: 600;">
+• 강사 1인 + 보조 멘토 2인 + 통역 1인의 <strong>입체적 밀착 지도</strong><br>
+• 영어·베트남어 이중언어 교안과 <strong>학생 눈높이 실시간 디버깅</strong>
 </div>
 </div>
 </div>
 
-<div class="biz-photo" style="height: 460px; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);">
-<img src="images/team_photo.JPG" alt="봉사단 팀 사진">
-</div>
+<!-- Bottom High-Impact Bar -->
+<div class="biz-alert-bar" style="margin-top: 0px; border-left: 4px solid #1a56db; font-size: 14.5px; font-weight: 700; color: #0f172a;">
+<span class="biz-alert-icon">!</span>
+<div><strong>핵심 성과 요약 :</strong> 50시간의 집중 실습과 밀착 멘토링으로 비전공 입문자 전원이 자신만의 웹 포트폴리오를 성공적으로 완성했습니다.</div>
 </div>
 
 ---
@@ -271,7 +278,7 @@ style: |
 <span class="biz-header-tag">03 TARGET &amp; STRATEGY</span>
 <h2 class="biz-header-title">교육 대상 특성 및 도출 전략</h2>
 </div>
-<span class="biz-header-sub">학습자 특성 및 현장 과제 8대 요소 분석</span>
+
 </div>
 
 <div style="position: relative; width: 1180px; height: 520px; margin: 0 auto;">
@@ -330,18 +337,18 @@ style: |
 <!-- 3 Core Strategy Action Cards -->
 <div style="display: flex; flex-direction: column; gap: 6px; width: 100%; max-width: 232px;">
 <div style="solid #e2e8f0; #0f2b82; padding: 5px 10px; display: flex; align-items: center; justify-content: space-between;">
-<span style="font-size: 11px; font-weight: 900; color: #1a56db;">밀착 코칭</span>
-<span style="font-size: 9.5px; font-weight: 700; color: #334155;">실시간 1:1 디버깅 지원</span>
+<span style="font-size: 13px; font-weight: 900; color: #1a56db;">밀착 코칭</span>
+<span style="font-size: 12px; font-weight: 700; color: #0f172a;">실시간 1:1 디버깅 지원</span>
 </div>
 
 <div style="solid #e2e8f0; #0f2b82; padding: 5px 10px; display: flex; align-items: center; justify-content: space-between;">
-<span style="font-size: 11px; font-weight: 900; color: #0f2b82;">아중언어 교안</span>
-<span style="font-size: 9.5px; font-weight: 700; color: #334155;">영어 · 베트남어 교안</span>
+<span style="font-size: 13px; font-weight: 900; color: #0f2b82;">이중언어 교안</span>
+<span style="font-size: 12px; font-weight: 700; color: #0f172a;">영어 · 베트남어 교안</span>
 </div>
 
 <div style="solid #e2e8f0; #0f2b82; padding: 5px 10px; display: flex; align-items: center; justify-content: space-between;">
-<span style="font-size: 11px; font-weight: 900; color: #0284c7;">유연한 진도</span>
-<span style="font-size: 9.5px; font-weight: 700; color: #334155;">Day 5 맞춤 복습 보강</span>
+<span style="font-size: 13px; font-weight: 900; color: #0284c7;">유연한 진도</span>
+<span style="font-size: 12px; font-weight: 700; color: #0f172a;">Day 5 맞춤 복습 보강</span>
 </div>
 </div>
 
@@ -353,10 +360,10 @@ style: |
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eff6ff; border: 1.5px solid #bfdbfe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">💻</div>
 <div style="display: flex; flex-direction: column; gap: 3px;">
 <div style="display: flex; align-items: center; gap: 6px;">
-<span style="font-size: 14px; font-weight: 900; color: #1a56db;">01. 코딩 첫걸음</span>
+<span style="font-size: 15px; font-weight: 900; color: #1a56db;">01. 코딩 첫걸음</span>
 <span style="font-size: 10px; font-weight: 800; color: #1a56db; background: #dbeafe; padding: 1px 6px; border-radius: 4px;">입문</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">대학교 1학년 입문자 대상<br>프로그래밍 기초 및 개발 경험 전무</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">대학교 1학년 입문자 대상<br>프로그래밍 기초 및 개발 경험 전무</span>
 </div>
 </div>
 
@@ -365,10 +372,10 @@ style: |
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eff6ff; border: 1.5px solid #bfdbfe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">⚠️</div>
 <div style="display: flex; flex-direction: column; gap: 3px;">
 <div style="display: flex; align-items: center; gap: 6px;">
-<span style="font-size: 14px; font-weight: 900; color: #1a56db;">02. 영문 에러 장벽</span>
+<span style="font-size: 15px; font-weight: 900; color: #1a56db;">02. 영문 에러 장벽</span>
 <span style="font-size: 10px; font-weight: 800; color: #1a56db; background: #dbeafe; padding: 1px 6px; border-radius: 4px;">심리</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">콘솔 붉은 에러 메시지와<br>낯선 영문 코드에 대한 심리적 두려움</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">콘솔 붉은 에러 메시지와<br>낯선 영문 코드에 대한 심리적 두려움</span>
 </div>
 </div>
 
@@ -377,10 +384,10 @@ style: |
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eff6ff; border: 1.5px solid #bfdbfe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">🗣️</div>
 <div style="display: flex; flex-direction: column; gap: 3px;">
 <div style="display: flex; align-items: center; gap: 6px;">
-<span style="font-size: 14px; font-weight: 900; color: #1a56db;">03. 언어 소통 한계</span>
+<span style="font-size: 15px; font-weight: 900; color: #1a56db;">03. 언어 소통 한계</span>
 <span style="font-size: 10px; font-weight: 800; color: #1a56db; background: #dbeafe; padding: 1px 6px; border-radius: 4px;">장벽</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">한국어-베트남어 간 소통 한계<br>전문 IT 용어의 직관적 설명 필요성</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">한국어-베트남어 간 소통 한계<br>전문 IT 용어의 직관적 설명 필요성</span>
 </div>
 </div>
 
@@ -389,10 +396,10 @@ style: |
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eff6ff; border: 1.5px solid #bfdbfe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">🔥</div>
 <div style="display: flex; flex-direction: column; gap: 3px;">
 <div style="display: flex; align-items: center; gap: 6px;">
-<span style="font-size: 14px; font-weight: 900; color: #1a56db;">04. 높은 학습 열의</span>
+<span style="font-size: 15px; font-weight: 900; color: #1a56db;">04. 높은 학습 열의</span>
 <span style="font-size: 10px; font-weight: 800; color: #1a56db; background: #dbeafe; padding: 1px 6px; border-radius: 4px;">동기</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">새로운 IT 기술에 대한 뜨거운 호기심과<br>프로젝트를 완성하려는 강력한 의지</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">새로운 IT 기술에 대한 뜨거운 호기심과<br>프로젝트를 완성하려는 강력한 의지</span>
 </div>
 </div>
 
@@ -402,9 +409,9 @@ style: |
 <div style="display: flex; flex-direction: column; gap: 3px; width: 100%;">
 <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
 <span style="font-size: 10px; font-weight: 800; color: #0f2b82; background: #e0e7ff; padding: 1px 6px; border-radius: 4px;">시한</span>
-<span style="font-size: 14px; font-weight: 900; color: #0f2b82;">05. 10일 집중 일정</span>
+<span style="font-size: 15px; font-weight: 900; color: #0f2b82;">05. 10일 집중 일정</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">총 10일 50시간의 한정된 시간 내<br>완성작 도출이라는 일정 압박</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">총 10일 50시간의 한정된 시간 내<br>완성작 도출이라는 일정 압박</span>
 </div>
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eef2ff; border: 1.5px solid #c7d2fe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">⏳</div>
 </div>
@@ -414,9 +421,9 @@ style: |
 <div style="display: flex; flex-direction: column; gap: 3px; width: 100%;">
 <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
 <span style="font-size: 10px; font-weight: 800; color: #0f2b82; background: #e0e7ff; padding: 1px 6px; border-radius: 4px;">인프라</span>
-<span style="font-size: 14px; font-weight: 900; color: #0f2b82;">06. 실습실 PC 환경</span>
+<span style="font-size: 15px; font-weight: 900; color: #0f2b82;">06. 실습실 PC 환경</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">현지 실습실 네트워크 연결<br>에디터 및 개발환경 세팅</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">현지 실습실 네트워크 연결<br>에디터 및 개발환경 세팅</span>
 </div>
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eef2ff; border: 1.5px solid #c7d2fe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">🖥️</div>
 </div>
@@ -426,9 +433,9 @@ style: |
 <div style="display: flex; flex-direction: column; gap: 3px; width: 100%;">
 <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
 <span style="font-size: 10px; font-weight: 800; color: #0f2b82; background: #e0e7ff; padding: 1px 6px; border-radius: 4px;">편차</span>
-<span style="font-size: 14px; font-weight: 900; color: #0f2b82;">07. 개인별 진도 편차</span>
+<span style="font-size: 15px; font-weight: 900; color: #0f2b82;">07. 개인별 진도 편차</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">학생 간 습득 속도 및 타자 차이<br>낙오자 방지를 위한 속도 조절</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">학생 간 습득 속도 및 타자 차이<br>낙오자 방지를 위한 속도 조절</span>
 </div>
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eef2ff; border: 1.5px solid #c7d2fe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">📊</div>
 </div>
@@ -438,9 +445,9 @@ style: |
 <div style="display: flex; flex-direction: column; gap: 3px; width: 100%;">
 <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
 <span style="font-size: 10px; font-weight: 800; color: #0f2b82; background: #e0e7ff; padding: 1px 6px; border-radius: 4px;">라포</span>
-<span style="font-size: 14px; font-weight: 900; color: #0f2b82;">08. 학습 몰입 &amp; 라포</span>
+<span style="font-size: 15px; font-weight: 900; color: #0f2b82;">08. 학습 몰입 &amp; 라포</span>
 </div>
-<span style="font-size: 11.5px; color: #64748b; line-height: 1.4;">장시간 실습에 따른 피로도 관리와<br>수업 전후 정서 케어 및 신뢰 형성</span>
+<span style="font-size: 12px; color: #1e293b; font-weight: 600; line-height: 1.4;">장시간 실습에 따른 피로도 관리와<br>수업 전후 정서 케어 및 신뢰 형성</span>
 </div>
 <div style="width: 46px; height: 46px; border-radius: 50%; background: #eef2ff; border: 1.5px solid #c7d2fe; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">🤝</div>
 </div>
@@ -455,7 +462,7 @@ style: |
 <span class="biz-header-tag">04 ROADMAP</span>
 <h2 class="biz-header-title">10일간의 커리큘럼 로드맵</h2>
 </div>
-<span class="biz-header-sub">Step By Step</span>
+
 </div>
 
 <div style="width: 100%; margin: 26px auto 0;">
@@ -546,89 +553,66 @@ style: |
 </svg>
 
 <!-- 5 Column Content Cards (HTML Grid with Balanced High-Density Content) -->
-<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 24px;">
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 22px;">
 
 <!-- Column 1: HTML 기초 & 구조화 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #16c7fc; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">HTML 기초 &amp; 구조화</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• VS Code 환경 &amp; 웹 원리 이해</div>
-<div>• 시맨틱 태그(header·nav·footer)</div>
-<div>• 이미지·비디오 및 하이퍼링크</div>
-<div>• 폼(Form)·입력(Input) 컴포넌트</div>
-<div>• 웹 표준 문서 계층 구조화 실습</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #16c7fc; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">HTML5 기초·구조</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 웹 원리 &amp; 환경 구축</div>
+    <div>• 시맨틱 태그 골조 완성</div>
+    <div>• 폼 &amp; 입력 컴포넌트</div>
+  </div>
 </div>
 
 <!-- Column 2: CSS 스타일 & 레이아웃 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #199cfa; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">CSS 스타일 &amp; 레이아웃</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• 선택자 문법 &amp; 스타일 상속 원리</div>
-<div>• 박스 모델(여백·테두리·콘텐츠)</div>
-<div>• Flexbox 기반 1차원 레이아웃</div>
-<div>• 컬러·폰트 시스템 디자인 가이드</div>
-<div>• 버튼·카드 핵심 UI 컴포넌트 구현</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #199cfa; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">CSS3 스타일·배치</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 박스 모델 (Box Model)</div>
+    <div>• Flexbox 반응형 정렬</div>
+    <div>• 카드 UI 컴포넌트 구현</div>
+  </div>
 </div>
 
 <!-- Column 3: 기본기 보강 & 문화교류 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0c64fc; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">기본기 보강 &amp; 문화교류</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• 1주차 수업 피드백 및 이해도 점검</div>
-<div>• HTML·CSS 핵심 개념 집중 복습</div>
-<div>• 박스와 flexbox 오류 1:1 케어</div>
-<div>• 한국 전통놀이(윷놀이·딱지치기)</div>
-<div>• 학생-봉사단 친밀감 및 라포 형성</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0c64fc; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">진도보강 &amp; 문화교류</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 1:1 오류 케어 &amp; 복습</div>
+    <div>• K-전통놀이 체험 (윷놀이)</div>
+    <div>• 학습 친밀도·라포 형성</div>
+  </div>
 </div>
 
 <!-- Column 4: JavaScript 동적 인터랙션 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">JS 동적 인터랙션</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• 변수·자료형·함수·조건문 문법</div>
-<div>• DOM 조작(요소 탐색·속성 제어)</div>
-<div>• 클릭·입력 등 이벤트 리스너 제어</div>
-<div>• 모달창·토글 등 인터랙티브 UI 구현</div>
-<div>• 개발자 도구(Console) 에러 분석</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">JS 동적 제어</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 핵심 문법 &amp; DOM 조작</div>
+    <div>• 클릭·토글 인터랙션</div>
+    <div>• F12 콘솔 디버깅 훈련</div>
+  </div>
 </div>
 
-<!-- Column 5: Project ② & 최종 쇼케이스 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #091b4f; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">Project  &amp; 쇼케이스</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• HTML·CSS·JS 3대 기술 통합</div>
-<div>• 자기소개 프로젝트 구현</div>
-<div>• 학생 개별 완성작 발표</div>
-<div>• 최종 수료식 및 수료증 수여</div>
-<div>• 문화 교류(몸으로말해요)</div>
-</div>
+<!-- Column 5: Project & 최종 쇼케이스 -->
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #091b4f; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">웹 완성 &amp; 수료</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 자기소개 웹페이지 완성</div>
+    <div>• 개별 완성작 라이브 발표</div>
+    <div>• 최종 수료식 &amp; 성취 공유</div>
+  </div>
 </div>
 
 </div>
 
 <!-- Bottom Strategy Summary Bar -->
-<div class="biz-alert-bar" style="margin-top: 24px;">
-<div style="display: flex; flex-direction: column; gap: 3px;">
-<div style="font-size: 13px; font-weight: 800; color: black;">단계별 점진적 빌드업(Build-up) 완주 전략</div>
-<div style="font-size: 12px; color: #475569; line-height: 1.5;">
-단순 문법 암기식 주입을 지양하고 <strong>'기초 골격(HTML) ➔ 스타일링(CSS) ➔ 맞춤 보강 &amp; 문화교류 ➔ 동적 제어(JS) ➔ 자기소개 웹 &amp; 최종 수료'</strong>의 실습 설계를 적용했습니다.<br>
-특히 Day 5의 진도 보강과 문화교류로 다진 라포를 바탕으로, 입문자 전원이 자신만의 웹사이트를 완성하고 수료했습니다.
-</div>
-</div>
+<div class="biz-alert-bar" style="margin-top: 22px; border-left: 4px solid #1a56db; padding: 12px 18px;">
+  <span class="biz-alert-icon">!</span>
+  <div style="font-size: 14.5px; font-weight: 700; color: #0f172a;">
+    <strong>점진적 빌드업 전략 :</strong> '골격(HTML) ➔ 스타일(CSS) ➔ 보강·문화교류 ➔ 동적 제어(JS) ➔ 완성작 발표'로 입문자 전원 100% 완주
+  </div>
 </div>
 
 </div>
@@ -641,7 +625,7 @@ style: |
 <span class="biz-header-tag">05 METHODOLOGY</span>
 <h2 class="biz-header-title">밀착 실습 멘토링</h2>
 </div>
-<span class="biz-header-sub">실시간 피드백 루프</span>
+
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr 1.1fr; gap: 36px; align-items: center; margin-top: 15px;">
@@ -654,7 +638,7 @@ style: |
 <div style="width: 44px; height: 44px; border-radius: 50%; background: #1a56db; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(26, 86, 219, 0.25);">1</div>
 <div>
 <div style="font-size: 18.5px; font-weight: 900; color: #1a56db; margin-bottom: 6px;">밀착 전담 및 빠른 오류 해결</div>
-<div style="font-size: 14.5px; color: #475569; line-height: 1.65;">
+<div style="font-size: 15px; color: #1e293b; line-height: 1.65; font-weight: 500;">
 보조 멘토 2인이 <strong>학생 2~3명당 1명씩 밀착 마크</strong>하여,<br>
 코드 오류 발생 시 <strong>즉각 디버깅</strong>으로 진도 이탈 방지
 </div>
@@ -666,7 +650,7 @@ style: |
 <div style="width: 44px; height: 44px; border-radius: 50%; background: #0f2b82; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(15, 43, 130, 0.25);">2</div>
 <div>
 <div style="font-size: 18.5px; font-weight: 900; color: #0f2b82; margin-bottom: 6px;">직접 만들며 습득하는 핸즈온 실습</div>
-<div style="font-size: 14.5px; color: #475569; line-height: 1.65;">
+<div style="font-size: 15px; color: #1e293b; line-height: 1.65; font-weight: 500;">
 지루한 주입식 이론을 최소화하고, 문법 학습과 동시에 <strong>직접 코딩하며</strong><br>
 브라우저에 구현되는 결과를 실시간으로 확인하는 참여형 수업 진행
 </div>
@@ -678,7 +662,7 @@ style: |
 <div style="width: 44px; height: 44px; border-radius: 50%; background: #0284c7; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 18px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(2, 132, 199, 0.25);">3</div>
 <div>
 <div style="font-size: 18.5px; font-weight: 900; color: #0284c7; margin-bottom: 6px;">언어 장벽 없는 실시간 통역 루프</div>
-<div style="font-size: 14.5px; color: #475569; line-height: 1.65;">
+<div style="font-size: 15px; color: #1e293b; line-height: 1.65; font-weight: 500;">
 베트남어 질문 ➔ 영어 ➔ 한국어 번역 ➔ 기술 솔루션 도출의<br>
 <strong>실시간 소통 루프</strong>를 통해 심리적 안정감과 학습 몰입도 제공
 </div>
@@ -702,7 +686,7 @@ style: |
 <span class="biz-header-tag">06 COURSEWARE</span>
 <h2 class="biz-header-title">현지 눈높이 맞춤형 교재</h2>
 </div>
-<span class="biz-header-sub">이중언어 병기와 직관적 일상 메타포를 담은 자체 제작 강의안</span>
+
 </div>
 
 <!-- Top 3 Feature Cards with Left Accent Bar (Width: 1040px) -->
@@ -710,8 +694,8 @@ style: |
 
 <!-- Card 1 -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #1a56db; border-radius: 6px; padding: 12px 16px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column;">
-<div style="font-size: 14.5px; font-weight: 900; color: #1a56db; margin-bottom: 6px;">1. 이중언어 병기 (Bilingual)</div>
-<div style="font-size: 13px; color: #475569; line-height: 1.55;">
+<div style="font-size: 16px; font-weight: 900; color: #1a56db; margin-bottom: 6px;">1. 이중언어 병기 (Bilingual)</div>
+<div style="font-size: 13.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">
 <strong>영어 · 베트남어 1:1 교안</strong><br>
 베트남어 설명을 수록하여 언어 장벽을 덜어냄<br>
 <span style="color: #1a56db; font-weight: 700; display: inline-block; margin-top: 4px;">➔ Xây dựng trang web đầu tiên</span>
@@ -720,8 +704,8 @@ style: |
 
 <!-- Card 2 -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0f2b82; border-radius: 6px; padding: 12px 16px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column;">
-<div style="font-size: 14.5px; font-weight: 900; color: #0f2b82; margin-bottom: 6px;">2. 일상 비유 메타포</div>
-<div style="font-size: 13px; color: #475569; line-height: 1.55;">
+<div style="font-size: 16px; font-weight: 900; color: #0f2b82; margin-bottom: 6px;">2. 일상 비유 메타포</div>
+<div style="font-size: 13.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">
 <strong>눈높이에 맞춘 비유 설명</strong><br>
 • HTML/CSS: 집 건축 골조 & 인테리어<br>
 • JS: 전기 배선 & 도어락 제어<br>
@@ -731,8 +715,8 @@ style: |
 
 <!-- Card 3 -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; border-radius: 6px; padding: 12px 16px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column;">
-<div style="font-size: 14.5px; font-weight: 900; color: #0284c7; margin-bottom: 6px;">3. 실전 개발자 훈련</div>
-<div style="font-size: 13px; color: #475569; line-height: 1.55;">
+<div style="font-size: 16px; font-weight: 900; color: #0284c7; margin-bottom: 6px;">3. 실전 개발자 훈련</div>
+<div style="font-size: 13.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">
 <strong>스스로 해결하는 힘 배양</strong><br>
 • 디지털 자습 교재(PDF 185p) 전원 제공<br>
 • F12 콘솔 에러 추적 & console.log()<br>
@@ -780,7 +764,7 @@ style: |
 <span class="biz-header-tag">07 SHOWCASE</span>
 <h2 class="biz-header-title">최종 결과물: 나만의 자기소개 웹사이트</h2>
 </div>
-<span class="biz-header-sub">기획부터 스타일링, 인터랙션까지 직접 구현</span>
+
 </div>
 
 <!-- Vertically Centered Grid (Lowered with margin-top: 85px to balance top and bottom space) -->
@@ -794,7 +778,7 @@ style: |
 <div style="width: 42px; height: 42px; border-radius: 50%; background: #1a56db; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 17px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(26, 86, 219, 0.25);">01</div>
 <div>
 <div style="font-size: 17.5px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">Semantic HTML 구조화</div>
-<div style="font-size: 13.5px; color: #64748b; line-height: 1.5;">header, section, footer 등 바른 태그로 웹 문서 골조 완성</div>
+<div style="font-size: 14.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">header, section, footer 등 바른 태그로 웹 문서 골조 완성</div>
 </div>
 </div>
 
@@ -803,7 +787,7 @@ style: |
 <div style="width: 42px; height: 42px; border-radius: 50%; background: #0f2b82; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 17px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(15, 43, 130, 0.25);">02</div>
 <div>
 <div style="font-size: 17.5px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">Custom CSS & Flexbox 레이아웃</div>
-<div style="font-size: 13.5px; color: #64748b; line-height: 1.5;">자신만의 개성 있는 테마 컬러와 반응형 정렬로 카드 디자인 구현</div>
+<div style="font-size: 14.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">자신만의 개성 있는 테마 컬러와 반응형 정렬로 카드 디자인 구현</div>
 </div>
 </div>
 
@@ -812,7 +796,7 @@ style: |
 <div style="width: 42px; height: 42px; border-radius: 50%; background: #0284c7; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 17px; flex-shrink: 0; box-shadow: 0 3px 8px rgba(2, 132, 199, 0.25);">03</div>
 <div>
 <div style="font-size: 17.5px; font-weight: 900; color: #0f172a; margin-bottom: 4px;">JavaScript 동적 인터랙션</div>
-<div style="font-size: 13.5px; color: #64748b; line-height: 1.5;">버튼 클릭 이벤트, 토글, 링크이동 등 동적 기능 제어</div>
+<div style="font-size: 14.5px; color: #1e293b; line-height: 1.6; font-weight: 500;">버튼 클릭 이벤트, 토글, 링크이동 등 동적 기능 제어</div>
 </div>
 </div>
 
@@ -841,7 +825,7 @@ style: |
 <span class="biz-header-tag">08 CULTURAL EXCHANGE</span>
 <h2 class="biz-header-title">문화로 하나 된 순간</h2>
 </div>
-<span class="biz-header-sub">레크리에이션으로 꽃피운 특별한 우정</span>
+
 </div>
 
 <!-- 4-Polaroid Photo-wall Grid (2 Rows x 2 Columns) -->
@@ -853,8 +837,8 @@ style: |
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff7ed;">
 <img src="images/culture_1.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">✨ 함께하는 즐거움, 문화 페스티벌</div>
-<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">게임 하나로 어색함을 깨고 다 함께 웃음꽃</div>
+<div style="font-size: 16.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">✨ 함께하는 즐거움, 문화 페스티벌</div>
+<div style="font-size: 13.5px; color: #1e293b; text-align: center; margin-top: 4px; font-weight: 500;">게임 하나로 어색함을 깨고 다 함께 웃음꽃</div>
 </div>
 
 <!-- Polaroid 2: 딱지치기 -->
@@ -863,8 +847,8 @@ style: |
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #f0f9ff;">
 <img src="images/culture_2.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">🎲 K-전통놀이 윷놀이 한판!</div>
-<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">도개걸윷모 말판 위에서 펼쳐진 흥미진진 팀 대항전</div>
+<div style="font-size: 16.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">🎲 K-전통놀이 윷놀이 한판!</div>
+<div style="font-size: 13.5px; color: #1e293b; text-align: center; margin-top: 4px; font-weight: 500;">도개걸윷모 말판 위에서 펼쳐진 흥미진진 팀 대항전</div>
 </div>
 
 <!-- Polaroid 3: 몸으로 말해요 -->
@@ -873,8 +857,8 @@ style: |
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #faf5ff;">
 <img src="images/culture_3.JPG" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">💡 상상력을 이어라! '이어그리기 대작전'</div>
-<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">줄 맞춰 스케치북을 넘기며 완성한 팀워크 드로잉</div>
+<div style="font-size: 16.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">💡 상상력을 이어라! '이어그리기 대작전'</div>
+<div style="font-size: 13.5px; color: #1e293b; text-align: center; margin-top: 4px; font-weight: 500;">줄 맞춰 스케치북을 넘기며 완성한 팀워크 드로잉</div>
 </div>
 
 <!-- Polaroid 4: 문화교류와 우정 -->
@@ -883,8 +867,8 @@ style: |
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff1f2;">
 <img src="images/culture_4.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">📸 마음으로 이어진 소중한 우정</div>
-<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">서로의 문화를 나누며 꽃피운 2주간의 따뜻한 추억</div>
+<div style="font-size: 16.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">📸 마음으로 이어진 소중한 우정</div>
+<div style="font-size: 13.5px; color: #1e293b; text-align: center; margin-top: 4px; font-weight: 500;">서로의 문화를 나누며 꽃피운 2주간의 따뜻한 추억</div>
 </div>
 
 </div>
@@ -897,7 +881,7 @@ style: |
 <span class="biz-header-tag">09 CHALLENGE & SOLUTION</span>
 <h2 class="biz-header-title">어려움 극복 스토리: 4단계 완주 여정</h2>
 </div>
-<span class="biz-header-sub">현장의 돌발 변수를 민첩한 튜닝과 밀착 케어로 돌파하며 이뤄낸 성장</span>
+
 </div>
 
 <!--
@@ -914,9 +898,9 @@ style: |
   <div style="position: absolute; left: 495px; top: 25px; width: 375px; border-top: 2.5px solid #091e42; padding-top: 8px; z-index: 2; border-left: 2.5px solid #091e42; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #091e42; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 04</span>
-      <span style="color: #091e42; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">최종 완주 </span>
+      <span style="color: #091e42; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">최종 완주</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • 끝까지 포기하지 않고 도전한 수료생들의 프로젝트 발표
     </div>
     <div style="font-size: 12px; color: #0284c7; font-weight: 750; line-height: 1.4; white-space: nowrap;">
@@ -930,9 +914,9 @@ style: |
   <div style="position: absolute; left: 390px; top: 145px; width: 375px; border-top: 2.5px solid #0f2b82; padding-top: 8px; z-index: 2; border-left: 2.5px solid #0f2b82; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #0f2b82; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 03</span>
-      <span style="color: #0f2b82; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">실습 격차 밀착 케어</span>
+      <span style="color: #0f2b82; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">실습 격차 밀착 케어</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • 보조 멘토 2인 전담 마크로 빠른 에러 해결
     </div>
     <div style="font-size: 12px; color: #0f2b82; font-weight: 750; line-height: 1.4; white-space: nowrap;">
@@ -946,25 +930,25 @@ style: |
   <div style="position: absolute; left: 270px; top: 265px; width: 375px; border-top: 2.5px solid #1a56db; padding-top: 8px; z-index: 2; border-left: 2.5px solid #1a56db; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #1a56db; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 02</span>
-      <span style="color: #1a56db; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">학습 부담 완화</span>
+      <span style="color: #1a56db; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">학습 부담 완화</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • Day 5 중간과제 유연화 (기초 문법 복습으로 전환)
     </div>
     <div style="font-size: 12px; color: #1a56db; font-weight: 750; line-height: 1.4; white-space: nowrap;">
-      ➔ 윷놀이·딱지치기 문화교류를 통한 학습 피로도 리프레시
+      ➔ 중도 포기자 0명 전원 수료 달성
     </div>
   </div>
 
   <!-- ============================================== -->
-  <!-- STEP 01 (언어 극복) -->
+  <!-- STEP 01 (언어 장벽) -->
   <!-- ============================================== -->
-  <div style="position: absolute; left: 145px; top: 377px; width: 375px; border-top: 2.5px solid #0284c7; padding-top: 8px; z-index: 2; border-left: 2.5px solid #0284c7; padding-left: 10px;">
+  <div style="position: absolute; left: 150px; top: 385px; width: 375px; border-top: 2.5px solid #0284c7; padding-top: 8px; z-index: 2; border-left: 2.5px solid #0284c7; padding-left: 10px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
       <span style="background: #0284c7; color: #ffffff; font-size: 11px; font-weight: 900; padding: 2px 7px; letter-spacing: 0.5px; line-height: 1.2;">STEP 01</span>
-      <span style="color: #0284c7; font-size: 15px; font-weight: 850; letter-spacing: -0.02em;">언어 장벽 극복</span>
+      <span style="color: #0284c7; font-size: 16.5px; font-weight: 900; letter-spacing: -0.02em;">언어 장벽 극복</span>
     </div>
-    <div style="font-size: 12px; color: #475569; line-height: 1.4; margin-bottom: 2px; white-space: nowrap;">
+    <div style="font-size: 13px; color: #1e293b; line-height: 1.5; margin-bottom: 2px; font-weight: 500; white-space: nowrap;">
       • 어학 단원 상주 실시간 3자 통역 루프 가동
     </div>
     <div style="font-size: 12px; color: #0284c7; font-weight: 750; line-height: 1.4; white-space: nowrap;">
@@ -982,7 +966,7 @@ style: |
 <span class="biz-header-tag">10 LESSONS &amp; GROWTH</span>
 <h2 class="biz-header-title">단원별 성장 스토리</h2>
 </div>
-<span class="biz-header-sub">지식을 나누며 함께 도약한 4인의 배움과 성취</span>
+
 </div>
 
 <!-- Top Row: 4 Members Reflection Cards in 1 Row -->
@@ -991,7 +975,7 @@ style: |
 <!-- 1. 김예원 단원 (컴퓨터공학부) -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #1a56db; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-<span style="font-weight: 900; color: #1a56db; font-size: 14.5px;">김예원 단원</span>
+<span style="font-weight: 900; color: #1a56db; font-size: 16px;">김예원 단원</span>
 <span style="background: #ebf5ff; color: #1a56db; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">컴퓨터공학부</span>
 </div>
 <div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
@@ -1002,7 +986,7 @@ style: |
 <!-- 2. 박정우 단원 (컴퓨터공학부) -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-<span style="font-weight: 900; color: #0f2b82; font-size: 14.5px;">박정우 단원</span>
+<span style="font-weight: 900; color: #0f2b82; font-size: 16px;">박정우 단원</span>
 <span style="background: #e8ecf8; color: #0f2b82; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">컴퓨터공학부</span>
 </div>
 <div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
@@ -1013,10 +997,10 @@ style: |
 <!-- 3. 조명현 단원 (컴퓨터공학부) -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-<span style="font-weight: 900; color: #0284c7; font-size: 14.5px;">조명현 단원</span>
+<span style="font-weight: 900; color: #0284c7; font-size: 16px;">조명현 단원</span>
 <span style="background: #e0f2fe; color: #0284c7; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">컴퓨터공학부</span>
 </div>
-<div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
+<div style="font-size: 12.5px; color: #0f172a; line-height: 1.55; word-break: keep-all; font-weight: 500;">
 "처음엔 코딩을 두려워하던 학생들이 첫 웹을 완성하는 모습을 보며, <strong>타인의 성장을 돕는 일이 곧 나의 큰 도약</strong>임을 체감했습니다."
 </div>
 </div>
@@ -1024,10 +1008,10 @@ style: |
 <!-- 4. 허서정 단원 (항공관광외국어학부) -->
 <div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0d9488; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-<span style="font-weight: 900; color: #0d9488; font-size: 14.5px;">허서정 단원</span>
+<span style="font-weight: 900; color: #0d9488; font-size: 16px;">허서정 단원</span>
 <span style="background: #ccfbf1; color: #0f766e; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">외국어학부</span>
 </div>
-<div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
+<div style="font-size: 12.5px; color: #0f172a; line-height: 1.55; word-break: keep-all; font-weight: 500;">
 "기술과 사람 사이를 잇는 통역과 라포 형성을 주도하며 <strong>문화적 소통과 프로젝트 매니징의 가치</strong>를 배우고 큰 성취감을 얻었습니다."
 </div>
 </div>

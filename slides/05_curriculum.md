@@ -4,7 +4,7 @@
 <span class="biz-header-tag">04 ROADMAP</span>
 <h2 class="biz-header-title">10일간의 커리큘럼 로드맵</h2>
 </div>
-<span class="biz-header-sub">Step By Step</span>
+
 </div>
 
 <div style="width: 100%; margin: 26px auto 0;">
@@ -95,89 +95,66 @@
 </svg>
 
 <!-- 5 Column Content Cards (HTML Grid with Balanced High-Density Content) -->
-<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 24px;">
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 22px;">
 
 <!-- Column 1: HTML 기초 & 구조화 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #16c7fc; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">HTML 기초 &amp; 구조화</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• VS Code 환경 &amp; 웹 원리 이해</div>
-<div>• 시맨틱 태그(header·nav·footer)</div>
-<div>• 이미지·비디오 및 하이퍼링크</div>
-<div>• 폼(Form)·입력(Input) 컴포넌트</div>
-<div>• 웹 표준 문서 계층 구조화 실습</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #16c7fc; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">HTML5 기초·구조</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 웹 원리 &amp; 환경 구축</div>
+    <div>• 시맨틱 태그 골조 완성</div>
+    <div>• 폼 &amp; 입력 컴포넌트</div>
+  </div>
 </div>
 
 <!-- Column 2: CSS 스타일 & 레이아웃 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #199cfa; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">CSS 스타일 &amp; 레이아웃</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• 선택자 문법 &amp; 스타일 상속 원리</div>
-<div>• 박스 모델(여백·테두리·콘텐츠)</div>
-<div>• Flexbox 기반 1차원 레이아웃</div>
-<div>• 컬러·폰트 시스템 디자인 가이드</div>
-<div>• 버튼·카드 핵심 UI 컴포넌트 구현</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #199cfa; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">CSS3 스타일·배치</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 박스 모델 (Box Model)</div>
+    <div>• Flexbox 반응형 정렬</div>
+    <div>• 카드 UI 컴포넌트 구현</div>
+  </div>
 </div>
 
 <!-- Column 3: 기본기 보강 & 문화교류 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0c64fc; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">기본기 보강 &amp; 문화교류</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• 1주차 수업 피드백 및 이해도 점검</div>
-<div>• HTML·CSS 핵심 개념 집중 복습</div>
-<div>• 박스와 flexbox 오류 1:1 케어</div>
-<div>• 한국 전통놀이(윷놀이·딱지치기)</div>
-<div>• 학생-봉사단 친밀감 및 라포 형성</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0c64fc; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">진도보강 &amp; 문화교류</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 1:1 오류 케어 &amp; 복습</div>
+    <div>• K-전통놀이 체험 (윷놀이)</div>
+    <div>• 학습 친밀도·라포 형성</div>
+  </div>
 </div>
 
 <!-- Column 4: JavaScript 동적 인터랙션 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">JS 동적 인터랙션</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• 변수·자료형·함수·조건문 문법</div>
-<div>• DOM 조작(요소 탐색·속성 제어)</div>
-<div>• 클릭·입력 등 이벤트 리스너 제어</div>
-<div>• 모달창·토글 등 인터랙티브 UI 구현</div>
-<div>• 개발자 도구(Console) 에러 분석</div>
-</div>
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">JS 동적 제어</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 핵심 문법 &amp; DOM 조작</div>
+    <div>• 클릭·토글 인터랙션</div>
+    <div>• F12 콘솔 디버깅 훈련</div>
+  </div>
 </div>
 
-<!-- Column 5: Project ② & 최종 쇼케이스 -->
-<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #091b4f; border-radius: 8px; padding: 18px 13px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 10px;">
-<div>
-<div style="font-size: 14.5px; font-weight: 900; color: #0f172a;">Project  &amp; 쇼케이스</div>
-</div>
-<div style="font-size: 11.5px; color: #475569; line-height: 1.6; display: flex; flex-direction: column; gap: 5px;">
-<div>• HTML·CSS·JS 3대 기술 통합</div>
-<div>• 자기소개 프로젝트 구현</div>
-<div>• 학생 개별 완성작 발표</div>
-<div>• 최종 수료식 및 수료증 수여</div>
-<div>• 문화 교류(몸으로말해요)</div>
-</div>
+<!-- Column 5: Project & 최종 쇼케이스 -->
+<div style="background: #ffffff; border: 1.5px solid #e2e8f0; border-top: 4px solid #091b4f; border-radius: 8px; padding: 18px 14px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: 12px;">
+  <div style="font-size: 16px; font-weight: 900; color: #0f172a;">웹 완성 &amp; 수료</div>
+  <div style="font-size: 14px; color: #1e293b; line-height: 1.8; font-weight: 600; display: flex; flex-direction: column; gap: 6px;">
+    <div>• 자기소개 웹페이지 완성</div>
+    <div>• 개별 완성작 라이브 발표</div>
+    <div>• 최종 수료식 &amp; 성취 공유</div>
+  </div>
 </div>
 
 </div>
 
 <!-- Bottom Strategy Summary Bar -->
-<div class="biz-alert-bar" style="margin-top: 24px;">
-<div style="display: flex; flex-direction: column; gap: 3px;">
-<div style="font-size: 13px; font-weight: 800; color: black;">단계별 점진적 빌드업(Build-up) 완주 전략</div>
-<div style="font-size: 12px; color: #475569; line-height: 1.5;">
-단순 문법 암기식 주입을 지양하고 <strong>'기초 골격(HTML) ➔ 스타일링(CSS) ➔ 맞춤 보강 &amp; 문화교류 ➔ 동적 제어(JS) ➔ 자기소개 웹 &amp; 최종 수료'</strong>의 실습 설계를 적용했습니다.<br>
-특히 Day 5의 진도 보강과 문화교류로 다진 라포를 바탕으로, 입문자 전원이 자신만의 웹사이트를 완성하고 수료했습니다.
-</div>
-</div>
+<div class="biz-alert-bar" style="margin-top: 22px; border-left: 4px solid #1a56db; padding: 12px 18px;">
+  <span class="biz-alert-icon">!</span>
+  <div style="font-size: 14.5px; font-weight: 700; color: #0f172a;">
+    <strong>점진적 빌드업 전략 :</strong> '골격(HTML) ➔ 스타일(CSS) ➔ 보강·문화교류 ➔ 동적 제어(JS) ➔ 완성작 발표'로 입문자 전원 100% 완주
+  </div>
 </div>
 
 </div>
