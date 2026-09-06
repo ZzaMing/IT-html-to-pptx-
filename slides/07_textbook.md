@@ -1,8 +1,8 @@
-<!-- Slide 7: 06 현지 맞춤형 혁신 교안 (185p) -->
+<!-- Slide 7: 06 현지 눈높이 맞춤형 교재 -->
 <div class="biz-header">
 <div class="biz-header-left">
 <span class="biz-header-tag">06 COURSEWARE</span>
-<h2 class="biz-header-title">맞춤형 혁신 (185p)</h2>
+<h2 class="biz-header-title">현지 눈높이 맞춤형 교재</h2>
 </div>
 <span class="biz-header-sub">이중언어 병기와 직관적 일상 메타포를 담은 자체 제작 강의안</span>
 </div>
@@ -44,27 +44,32 @@
 
 </div>
 
-<!-- 5-Card Stepped Overlap Gallery (Expanded 450px x 300px, Aspect Ratio 3:2) -->
-<div style="position: relative; height: 304px; width: 1090px; margin: 36px auto 0 auto;">
+<!-- 5-Card Stepped Overlap Gallery (Exact 16:9 Ratio 464px x 261px, Zero Crop & Staircase Offset) -->
+<div style="position: relative; height: 312px; width: 1120px; margin: 28px auto 0 auto;">
 
-<div style="position: absolute; left: 0px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.13); z-index: 1; background: #ffffff;">
-<img src="images/textbook_1.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 1: Day 1 HTML Basics -->
+<div style="position: absolute; left: 0px; top: 0px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -4px 6px 16px rgba(15, 23, 42, 0.10); z-index: 1; background: #ffffff;">
+<img src="images/textbook_1.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 160px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.15); z-index: 2; background: #ffffff;">
-<img src="images/textbook_2.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 2: Day 2 HTML Form & Preview -->
+<div style="position: absolute; left: 164px; top: 12px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -5px 7px 18px rgba(15, 23, 42, 0.12); z-index: 2; background: #ffffff;">
+<img src="images/textbook_2.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 320px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.17); z-index: 3; background: #ffffff;">
-<img src="images/textbook_3.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 3: Day 3 CSS Box Model -->
+<div style="position: absolute; left: 328px; top: 24px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -5px 8px 20px rgba(15, 23, 42, 0.14); z-index: 3; background: #ffffff;">
+<img src="images/textbook_3.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 480px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.19); z-index: 4; background: #ffffff;">
-<img src="images/textbook_4.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 4: Day 4 CSS Flexbox -->
+<div style="position: absolute; left: 492px; top: 36px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 9px 22px rgba(15, 23, 42, 0.16); z-index: 4; background: #ffffff;">
+<img src="images/textbook_4.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 640px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 22px rgba(15, 23, 42, 0.22); z-index: 5; background: #ffffff;">
-<img src="images/textbook_5.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 5: Day 7 JS DOM Object Tree (Fully Exposed) -->
+<div style="position: absolute; left: 656px; top: 48px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 10px 24px rgba(15, 23, 42, 0.18); z-index: 5; background: #ffffff;">
+<img src="images/textbook_5.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
 </div>

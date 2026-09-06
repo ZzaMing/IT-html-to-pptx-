@@ -128,7 +128,7 @@ style: |
 <div style="display: flex; flex-direction: column; gap: 8px; border-left: 3px solid #1a56db; padding-left: 16px;">
 <div style="font-size: 13.5px; color: #334155;"><strong>파견 기간</strong> &nbsp;2026.07.12 ~ 07.27 (15일)</div>
 <div style="font-size: 13.5px; color: #334155;"><strong>교육 기관</strong> &nbsp;베트남 다낭 교원대학교</div>
-<div style="font-size: 13.5px; color: #334155;"><strong>발표팀</strong> &nbsp;IT 봉사대 웹 프로그래밍 팀</div>
+<div style="font-size: 13.5px; color: #334155;"><strong>발표팀</strong> &nbsp;IT 봉사대 웹 프로그래밍 팀: WWW</div>
 </div>
 </div>
 
@@ -259,7 +259,7 @@ style: |
 </div>
 
 <div class="biz-photo" style="height: 460px; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);">
-<img src="images/team_photo.svg" alt="봉사단 팀 사진">
+<img src="images/team_photo.JPG" alt="봉사단 팀 사진">
 </div>
 </div>
 
@@ -271,7 +271,7 @@ style: |
 <span class="biz-header-tag">03 TARGET &amp; STRATEGY</span>
 <h2 class="biz-header-title">교육 대상 특성 및 도출 전략</h2>
 </div>
-<span class="biz-header-sub">학습자 특성 및 현장 과제 8대 요소 분석을 통한 다학제 융합 솔루션</span>
+<span class="biz-header-sub">학습자 특성 및 현장 과제 8대 요소 분석</span>
 </div>
 
 <div style="position: relative; width: 1180px; height: 520px; margin: 0 auto;">
@@ -689,18 +689,18 @@ style: |
 
 <!-- Right: Large Photo Frame (460px) -->
 <div class="biz-photo" style="height: 460px; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);">
-<img src="images/class_photo.svg" alt="강의 실습 사진">
+<img src="images/class_photo.jpg" alt="강의 실습 사진">
 </div>
 
 </div>
 
 ---
 
-<!-- Slide 7: 06 현지 맞춤형 혁신 교안 (185p) -->
+<!-- Slide 7: 06 현지 눈높이 맞춤형 교재 -->
 <div class="biz-header">
 <div class="biz-header-left">
 <span class="biz-header-tag">06 COURSEWARE</span>
-<h2 class="biz-header-title">맞춤형 혁신 (185p)</h2>
+<h2 class="biz-header-title">현지 눈높이 맞춤형 교재</h2>
 </div>
 <span class="biz-header-sub">이중언어 병기와 직관적 일상 메타포를 담은 자체 제작 강의안</span>
 </div>
@@ -742,27 +742,32 @@ style: |
 
 </div>
 
-<!-- 5-Card Stepped Overlap Gallery (Expanded 450px x 300px, Aspect Ratio 3:2) -->
-<div style="position: relative; height: 304px; width: 1090px; margin: 36px auto 0 auto;">
+<!-- 5-Card Stepped Overlap Gallery (Exact 16:9 Ratio 464px x 261px, Zero Crop & Staircase Offset) -->
+<div style="position: relative; height: 312px; width: 1120px; margin: 28px auto 0 auto;">
 
-<div style="position: absolute; left: 0px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.13); z-index: 1; background: #ffffff;">
-<img src="images/textbook_1.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 1: Day 1 HTML Basics -->
+<div style="position: absolute; left: 0px; top: 0px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -4px 6px 16px rgba(15, 23, 42, 0.10); z-index: 1; background: #ffffff;">
+<img src="images/textbook_1.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 160px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.15); z-index: 2; background: #ffffff;">
-<img src="images/textbook_2.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 2: Day 2 HTML Form & Preview -->
+<div style="position: absolute; left: 164px; top: 12px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -5px 7px 18px rgba(15, 23, 42, 0.12); z-index: 2; background: #ffffff;">
+<img src="images/textbook_2.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 320px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.17); z-index: 3; background: #ffffff;">
-<img src="images/textbook_3.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 3: Day 3 CSS Box Model -->
+<div style="position: absolute; left: 328px; top: 24px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -5px 8px 20px rgba(15, 23, 42, 0.14); z-index: 3; background: #ffffff;">
+<img src="images/textbook_3.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 480px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 20px rgba(15, 23, 42, 0.19); z-index: 4; background: #ffffff;">
-<img src="images/textbook_4.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 4: Day 4 CSS Flexbox -->
+<div style="position: absolute; left: 492px; top: 36px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 9px 22px rgba(15, 23, 42, 0.16); z-index: 4; background: #ffffff;">
+<img src="images/textbook_4.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
-<div style="position: absolute; left: 640px; top: 0px; width: 450px; height: 300px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 8px 22px rgba(15, 23, 42, 0.22); z-index: 5; background: #ffffff;">
-<img src="images/textbook_5.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Card 5: Day 7 JS DOM Object Tree (Fully Exposed) -->
+<div style="position: absolute; left: 656px; top: 48px; width: 464px; height: 261px; border-radius: 8px; overflow: hidden; border: 1px solid #cbd5e1; box-shadow: -6px 10px 24px rgba(15, 23, 42, 0.18); z-index: 5; background: #ffffff;">
+<img src="images/textbook_5.png" style="width: 100%; height: 100%; object-fit: fill; display: block;">
 </div>
 
 </div>
@@ -839,67 +844,47 @@ style: |
 <span class="biz-header-sub">레크리에이션으로 꽃피운 특별한 우정</span>
 </div>
 
-<!-- 6-Polaroid Photo-wall Grid (2 Rows x 3 Columns) -->
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px 28px; width: 1100px; margin: 16px auto 0 auto;">
+<!-- 4-Polaroid Photo-wall Grid (2 Rows x 2 Columns) -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px 36px; width: 1040px; margin: 16px auto 0 auto;">
 
 <!-- Polaroid 1: 윷놀이 -->
-<div style="position: relative; background: #ffffff; padding: 10px 10px 14px 10px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.11); transform: rotate(-2deg); transition: transform 0.2s;">
-<div style="position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 68px; height: 18px; background: rgba(254, 240, 138, 0.7); border: 1px dashed rgba(202, 138, 4, 0.4); border-radius: 2px;"></div>
-<div style="height: 160px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff7ed;">
-<img src="images/culture_1.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<div style="position: relative; background: #ffffff; padding: 12px 14px 14px 14px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); transform: rotate(-1.5deg);">
+<div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 76px; height: 20px; background: rgba(254, 240, 138, 0.75); border: 1px dashed rgba(202, 138, 4, 0.4); border-radius: 2px;"></div>
+<div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff7ed;">
+<img src="images/culture_1.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 13.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">🎲 K-전통놀이 윷놀이 한판!</div>
-<div style="font-size: 11.5px; color: #64748b; text-align: center; margin-top: 2px;">도개걸윷모 말판 팀 대항전</div>
+<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">✨ 함께하는 즐거움, 문화 페스티벌</div>
+<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">게임 하나로 어색함을 깨고 다 함께 웃음꽃</div>
 </div>
 
 <!-- Polaroid 2: 딱지치기 -->
-<div style="position: relative; background: #ffffff; padding: 10px 10px 14px 10px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.11); transform: rotate(1.8deg); transition: transform 0.2s;">
-<div style="position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 68px; height: 18px; background: rgba(191, 219, 254, 0.7); border: 1px dashed rgba(37, 99, 235, 0.4); border-radius: 2px;"></div>
-<div style="height: 160px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #f0f9ff;">
-<img src="images/culture_2.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<div style="position: relative; background: #ffffff; padding: 12px 14px 14px 14px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); transform: rotate(1.5deg);">
+<div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 76px; height: 20px; background: rgba(191, 219, 254, 0.75); border: 1px dashed rgba(37, 99, 235, 0.4); border-radius: 2px;"></div>
+<div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #f0f9ff;">
+<img src="images/culture_2.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 13.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">💥 넘어가라 딱지야! 딱지 배틀</div>
-<div style="font-size: 11.5px; color: #64748b; text-align: center; margin-top: 2px;">파워풀한 타격감과 환호의 순간</div>
+<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">🎲 K-전통놀이 윷놀이 한판!</div>
+<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">도개걸윷모 말판 위에서 펼쳐진 흥미진진 팀 대항전</div>
 </div>
 
 <!-- Polaroid 3: 몸으로 말해요 -->
-<div style="position: relative; background: #ffffff; padding: 10px 10px 14px 10px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.11); transform: rotate(-1.5deg); transition: transform 0.2s;">
-<div style="position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 68px; height: 18px; background: rgba(233, 213, 255, 0.7); border: 1px dashed rgba(147, 51, 234, 0.4); border-radius: 2px;"></div>
-<div style="height: 160px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #faf5ff;">
-<img src="images/culture_3.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<div style="position: relative; background: #ffffff; padding: 12px 14px 14px 14px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); transform: rotate(1.2deg);">
+<div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 76px; height: 20px; background: rgba(233, 213, 255, 0.75); border: 1px dashed rgba(147, 51, 234, 0.4); border-radius: 2px;"></div>
+<div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #faf5ff;">
+<img src="images/culture_3.JPG" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 13.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">🤸 온몸으로 소통하는 '몸으로 말해요'</div>
-<div style="font-size: 11.5px; color: #64748b; text-align: center; margin-top: 2px;">언어를 초월한 바디랭귀지 퀴즈</div>
-</div>
-
-<!-- Polaroid 4: K-스낵 파티 -->
-<div style="position: relative; background: #ffffff; padding: 10px 10px 14px 10px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.11); transform: rotate(1.5deg); transition: transform 0.2s;">
-<div style="position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 68px; height: 18px; background: rgba(254, 240, 138, 0.7); border: 1px dashed rgba(202, 138, 4, 0.4); border-radius: 2px;"></div>
-<div style="height: 160px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fefce8;">
-<img src="images/culture_4.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-</div>
-<div style="font-size: 13.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">🍪 내용 추천좀 ~~~ ㅠㅠ</div>
-<div style="font-size: 11.5px; color: #64748b; text-align: center; margin-top: 2px;">내용 추천좀 ~~</div>
+<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">💡 상상력을 이어라! '이어그리기 대작전'</div>
+<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">줄 맞춰 스케치북을 넘기며 완성한 팀워크 드로잉</div>
 </div>
 
-<!-- Polaroid 5: 롤링페이퍼 & 선물 -->
-<div style="position: relative; background: #ffffff; padding: 10px 10px 14px 10px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.11); transform: rotate(-2deg); transition: transform 0.2s;">
-<div style="position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 68px; height: 18px; background: rgba(254, 205, 211, 0.7); border: 1px dashed rgba(225, 29, 72, 0.4); border-radius: 2px;"></div>
-<div style="height: 160px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff1f2;">
-<img src="images/culture_5.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<!-- Polaroid 4: 문화교류와 우정 -->
+<div style="position: relative; background: #ffffff; padding: 12px 14px 14px 14px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08); transform: rotate(-1.2deg);">
+<div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 76px; height: 20px; background: rgba(254, 205, 211, 0.75); border: 1px dashed rgba(225, 29, 72, 0.4); border-radius: 2px;"></div>
+<div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff1f2;">
+<img src="images/culture_4.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 13.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">💌 내용 추천좀 ~~</div>
-<div style="font-size: 11.5px; color: #64748b; text-align: center; margin-top: 2px;">내용 추천해 주십쇼</div>
-</div>
-
-<!-- Polaroid 6: 단체 사진 -->
-<div style="position: relative; background: #ffffff; padding: 10px 10px 14px 10px; border-radius: 6px; border: 1px solid #cbd5e1; box-shadow: 0 8px 20px rgba(15, 23, 42, 0.11); transform: rotate(2deg); transition: transform 0.2s;">
-<div style="position: absolute; top: -9px; left: 50%; transform: translateX(-50%); width: 68px; height: 18px; background: rgba(187, 247, 208, 0.7); border: 1px dashed rgba(22, 163, 74, 0.4); border-radius: 2px;"></div>
-<div style="height: 160px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #f0fdf4;">
-<img src="images/culture_6.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-</div>
-<div style="font-size: 13.5px; font-weight: 900; color: #0f172a; text-align: center; margin-top: 8px;">📸 삼육대 X 교원대</div>
-<div style="font-size: 11.5px; color: #64748b; text-align: center; margin-top: 2px;">함께한 2주의 빛나는 수료식</div>
+<div style="font-size: 15px; font-weight: 800; color: #0f172a; text-align: center; margin-top: 8px;">📸 마음으로 이어진 소중한 우정</div>
+<div style="font-size: 12px; color: #64748b; text-align: center; margin-top: 3px;">서로의 문화를 나누며 꽃피운 2주간의 따뜻한 추억</div>
 </div>
 
 </div>
@@ -991,79 +976,67 @@ style: |
 
 ---
 
-<!-- Slide 11: 10 팀원들의 성장과 완주 소회 (Center Photo + Left/Right Quotes) -->
+<!-- Slide 11: 10 팀원들의 성장과 완주 소회 (Top 4 Quotes + Bottom Wide Photo) -->
 <div class="biz-header">
 <div class="biz-header-left">
 <span class="biz-header-tag">10 LESSONS &amp; GROWTH</span>
 <h2 class="biz-header-title">단원별 성장 스토리</h2>
 </div>
-<span class="biz-header-sub">지식을 나누며 함께 도약</span>
+<span class="biz-header-sub">지식을 나누며 함께 도약한 4인의 배움과 성취</span>
 </div>
 
-<!-- 3-Column Layout: Left (2 Members) | Center (Large Photo) | Right (2 Members) -->
-<div style="display: grid; grid-template-columns: 1fr 1.35fr 1fr; gap: 24px; align-items: center; margin-top: 15px;">
-
-<!-- Left Column: 김예원 & 박정우 -->
-<div style="display: flex; flex-direction: column; gap: 20px;">
+<!-- Top Row: 4 Members Reflection Cards in 1 Row -->
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; width: 1120px; margin: 8px auto 0 auto;">
 
 <!-- 1. 김예원 단원 (컴퓨터공학부) -->
-<div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #1a56db; padding: 18px 20px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);">
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
-<span style="font-weight: 900; color: #1a56db; font-size: 15.5px;">김예원 단원</span>
-<span style="background: #ebf5ff; color: #1a56db; font-size: 11px; font-weight: 800; padding: 2px 8px; ">컴퓨터공학부</span>
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #1a56db; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+<span style="font-weight: 900; color: #1a56db; font-size: 14.5px;">김예원 단원</span>
+<span style="background: #ebf5ff; color: #1a56db; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">컴퓨터공학부</span>
 </div>
-<div style="font-size: 13px; color: #334155; line-height: 1.6; word-break: keep-all;">
-"현장에서 쏟아지는 돌발 에러들을 해결하며 <strong>실무 디버깅 역량</strong>이 늘었고, 끝까지 포기하지 않는 끈기를 얻었습니다."
+<div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
+"현장에서 쏟아지는 돌발 에러들을 해결하며 <strong>디버깅 역량</strong>이 늘었고, 끝까지 포기하지 않는 끈기를 얻었습니다."
 </div>
 </div>
 
 <!-- 2. 박정우 단원 (컴퓨터공학부) -->
-<div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0f2b82; padding: 18px 20px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);">
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
-<span style="font-weight: 900; color: #0f2b82; font-size: 15.5px;">박정우 단원</span>
-<span style="background: #e8ecf8; color: #0f2b82; font-size: 11px; font-weight: 800; padding: 2px 8px; ">컴퓨터공학부</span>
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0f2b82; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+<span style="font-weight: 900; color: #0f2b82; font-size: 14.5px;">박정우 단원</span>
+<span style="background: #e8ecf8; color: #0f2b82; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">컴퓨터공학부</span>
 </div>
-<div style="font-size: 13px; color: #334155; line-height: 1.6; word-break: keep-all;">
-"입문자의 눈높이에 맞춰 지식을 전달하며 기술의 본질을 더 깊이 체득했고, 팀을 이끌며 함께 완주해낸 <strong>프로젝트 리더십</strong>을 배웠습니다."
-</div>
-</div>
-
-</div>
-
-<!-- Center Column: Large Group Photo Frame -->
-<div style="display: flex; flex-direction: column; align-items: center;">
-<div class="biz-photo" style="width: 100%; height: 460px; border-radius: 10px; border: 1px solid #cbd5e1; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); overflow: hidden; background: #ffffff;">
-<img src="images/group_photo.svg" alt="수료식 단체 사진" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+<div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
+"입문자의 눈높이에 맞춰 지식을 전달하며 기술의 본질을 더 깊이 체득했고, 팀을 완주로 이끈 <strong>프로젝트 리더십</strong>을 배웠습니다."
 </div>
 </div>
-
-<!-- Right Column: 조명현 & 허서정 -->
-<div style="display: flex; flex-direction: column; gap: 20px;">
 
 <!-- 3. 조명현 단원 (컴퓨터공학부) -->
-<div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; padding: 18px 20px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);">
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
-<span style="font-weight: 900; color: #0284c7; font-size: 15.5px;">조명현 단원</span>
-<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 2px 8px; ">컴퓨터공학부</span>
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0284c7; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+<span style="font-weight: 900; color: #0284c7; font-size: 14.5px;">조명현 단원</span>
+<span style="background: #e0f2fe; color: #0284c7; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">컴퓨터공학부</span>
 </div>
-<div style="font-size: 13px; color: #334155; line-height: 1.6; word-break: keep-all;">
-"처음엔 코딩을 두려워하던 학생들이 첫 웹을 완성해가는 모습을 보며, <strong>타인의 성장을 돕는 일이 곧 나의 큰 도약</strong>임을 체감했습니다."
+<div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
+"처음엔 코딩을 두려워하던 학생들이 첫 웹을 완성하는 모습을 보며, <strong>타인의 성장을 돕는 일이 곧 나의 큰 도약</strong>임을 체감했습니다."
 </div>
 </div>
 
 <!-- 4. 허서정 단원 (항공관광외국어학부) -->
-<div style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #0d9488; padding: 18px 20px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);">
-<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
-<span style="font-weight: 900; color: #0d9488; font-size: 15.5px;">허서정 단원</span>
-<span style="background: #ccfbf1; color: #0f766e; font-size: 11px; font-weight: 800; padding: 2px 8px; ">항공관광외국어학부</span>
+<div style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0d9488; border-radius: 6px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); display: flex; flex-direction: column; justify-content: space-between;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+<span style="font-weight: 900; color: #0d9488; font-size: 14.5px;">허서정 단원</span>
+<span style="background: #ccfbf1; color: #0f766e; font-size: 10.5px; font-weight: 800; padding: 2px 6px; border-radius: 3px;">외국어학부</span>
 </div>
-<div style="font-size: 13px; color: #334155; line-height: 1.6; word-break: keep-all;">
-"기술과 사람 사이를 잇는 통역과 라포 형성을 주도하며 <strong>문화적 소통과 프로젝트 매니징의 가치</strong>를 배우고 국경을 넘은 성취감을 얻었습니다."
+<div style="font-size: 12px; color: #334155; line-height: 1.55; word-break: keep-all;">
+"기술과 사람 사이를 잇는 통역과 라포 형성을 주도하며 <strong>문화적 소통과 프로젝트 매니징의 가치</strong>를 배우고 큰 성취감을 얻었습니다."
 </div>
-</div>
-
 </div>
 
+</div>
+
+<!-- Bottom Row: Wide Panoramic Group Photo Frame -->
+<div class="biz-photo" style="width: 1120px; height: 415px; margin: 12px auto 0 auto; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08); overflow: hidden; background: #ffffff;">
+<img src="images/group_photo.JPG" alt="수료식 단체 사진" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%; display: block;">
 </div>
 
 ---

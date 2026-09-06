@@ -4,12 +4,88 @@ const { execSync } = require('child_process');
 
 const rootDir = __dirname;
 const slidesDir = path.join(rootDir, 'slides');
+const imagesDir = path.join(rootDir, 'images');
 const presentationPath = path.join(rootDir, 'presentation.md');
 const htmlPath = path.join(rootDir, 'index.html');
 
+// Image aliases map: e.g. '교안_1' can match 'textbook_1'
+const ALIAS_MAP = {
+  'textbook_1': ['textbook_1', '교안_1', '교안1', 'textbook1'],
+  'textbook_2': ['textbook_2', '교안_2', '교안2', 'textbook2'],
+  'textbook_3': ['textbook_3', '교안_3', '교안3', 'textbook3'],
+  'textbook_4': ['textbook_4', '교안_4', '교안4', 'textbook4'],
+  'textbook_5': ['textbook_5', '교안_5', '교안5', 'textbook5'],
+  'culture_1': ['culture_1', '문화_1', '문화1', 'culture1'],
+  'culture_2': ['culture_2', '문화_2', '문화2', 'culture2'],
+  'culture_3': ['culture_3', '문화_3', '문화3', 'culture3'],
+  'culture_4': ['culture_4', '문화_4', '문화4', 'culture4'],
+  'team_photo': ['team_photo', '팀사진', '단체사진'],
+  'class_photo': ['class_photo', '수업사진', '실습사진']
+};
+
+// Smart Image Auto-Resolver:
+// Automatically detects user-placed photos (.jpg, .jpeg, .png, .webp) in images/
+// supports Korean/English aliases and falls back to placeholders.
+function autoResolveImages(markdownContent) {
+  if (!fs.existsSync(imagesDir)) return markdownContent;
+  const imageFiles = fs.readdirSync(imagesDir);
+
+  return markdownContent.replace(/images\/([^\s"'()]+?\.(?:svg|png|jpg|jpeg|webp))/gi, (fullMatch, filename) => {
+    const lastDot = filename.lastIndexOf('.');
+    const baseName = filename.slice(0, lastDot);
+
+    // Check aliases
+    const candidateBases = [baseName.toLowerCase()];
+    for (const [key, aliases] of Object.entries(ALIAS_MAP)) {
+      if (key.toLowerCase() === baseName.toLowerCase() || aliases.some(a => a.toLowerCase() === baseName.toLowerCase())) {
+        candidateBases.push(key.toLowerCase());
+        aliases.forEach(a => candidateBases.push(a.toLowerCase()));
+        break;
+      }
+    }
+    const uniqueCandidates = [...new Set(candidateBases)];
+
+    // 1. Search for real user-added files (excluding placeholders, backups, slides)
+    const validExtensions = ['jpg', 'jpeg', 'png', 'webp', 'svg'];
+    for (const candidate of uniqueCandidates) {
+      for (const ext of validExtensions) {
+        const match = imageFiles.find(file => {
+          const parts = file.split('.');
+          if (parts.length < 2) return false;
+          const fBase = parts.slice(0, -1).join('.').toLowerCase();
+          const fExt = parts[parts.length - 1].toLowerCase();
+          if (fBase.includes('_placeholder') || fBase.includes('_orig') || fBase.startsWith('slide.')) return false;
+          return fBase === candidate && fExt === ext;
+        });
+
+        if (match) {
+          if (match !== filename) {
+            console.log(`[AUTO-IMAGE] Auto-mapped: images/${filename} ➔ images/${match}`);
+          }
+          return `images/${match}`;
+        }
+      }
+    }
+
+    // 2. If no user file found, fallback to placeholder if available (e.g. textbook_placeholder_1.png)
+    for (const candidate of uniqueCandidates) {
+      const placeholderMatch = imageFiles.find(file => {
+        const lower = file.toLowerCase();
+        return (lower === `${candidate}_placeholder.png` || lower === `${candidate}_placeholder.jpg` || lower === `${candidate}_placeholder.svg`);
+      });
+      if (placeholderMatch) {
+        console.log(`[AUTO-IMAGE] Using placeholder: images/${filename} ➔ images/${placeholderMatch}`);
+        return `images/${placeholderMatch}`;
+      }
+    }
+
+    return fullMatch;
+  });
+}
+
 function build() {
   const startTime = Date.now();
-  console.log('[BUILD] Merging slides...');
+  console.log('[BUILD] Merging slides & resolving images...');
 
   if (!fs.existsSync(slidesDir)) {
     console.error('[ERROR] slides/ directory does not exist!');
@@ -31,7 +107,9 @@ function build() {
   parts.push(fs.readFileSync(path.join(slidesDir, styleFile), 'utf8').trim());
 
   slideFiles.forEach(file => {
-    parts.push(fs.readFileSync(path.join(slidesDir, file), 'utf8').trim());
+    let raw = fs.readFileSync(path.join(slidesDir, file), 'utf8').trim();
+    raw = autoResolveImages(raw);
+    parts.push(raw);
   });
 
   const merged = parts.join('\n\n---\n\n') + '\n';

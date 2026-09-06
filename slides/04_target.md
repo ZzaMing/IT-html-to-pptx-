@@ -4,7 +4,7 @@
 <span class="biz-header-tag">03 TARGET &amp; STRATEGY</span>
 <h2 class="biz-header-title">교육 대상 특성 및 도출 전략</h2>
 </div>
-<span class="biz-header-sub">학습자 특성 및 현장 과제 8대 요소 분석을 통한 다학제 융합 솔루션</span>
+<span class="biz-header-sub">학습자 특성 및 현장 과제 8대 요소 분석</span>
 </div>
 
 <div style="position: relative; width: 1180px; height: 520px; margin: 0 auto;">

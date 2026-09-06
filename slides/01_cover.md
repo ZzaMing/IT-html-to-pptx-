@@ -19,7 +19,7 @@
 <div style="display: flex; flex-direction: column; gap: 8px; border-left: 3px solid #1a56db; padding-left: 16px;">
 <div style="font-size: 13.5px; color: #334155;"><strong>파견 기간</strong> &nbsp;2026.07.12 ~ 07.27 (15일)</div>
 <div style="font-size: 13.5px; color: #334155;"><strong>교육 기관</strong> &nbsp;베트남 다낭 교원대학교</div>
-<div style="font-size: 13.5px; color: #334155;"><strong>발표팀</strong> &nbsp;IT 봉사대 웹 프로그래밍 팀</div>
+<div style="font-size: 13.5px; color: #334155;"><strong>발표팀</strong> &nbsp;IT 봉사대 웹 프로그래밍 팀: WWW</div>
 </div>
 </div>
 

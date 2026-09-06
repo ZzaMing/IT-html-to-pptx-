@@ -64,8 +64,8 @@ npm run watch
 
 ## 📊 산출물 파일 안내
 
-- **PowerPoint**: 삼육대학교_IT해외봉사단_결과보고서.pptx (16:9 와이드스크린 표준 파워포인트)
-- **PDF Document**: 삼육대학교_IT해외봉사단_결과보고서.pdf (인쇄 및 배포용 고화질 벡터 PDF)
+- **PowerPoint**: 삼육대학교_다낭IT봉사단_교원대_웹프로그래밍_평가보고서.pptx (16:9 와이드스크린 표준 파워포인트)
+- **PDF Document**: 삼육대학교_다낭IT봉사단_교원대_웹프로그래밍_평가보고서.pdf (인쇄 및 배포용 고화질 벡터 PDF)
 - **Web Presentation**: index.html (브라우저 기반 실시간 프레젠터 뷰)
 - **Source Files**: slides/*.md (개별 슬라이드 모듈 소스)
 
