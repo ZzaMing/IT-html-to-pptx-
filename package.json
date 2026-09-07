@@ -5,8 +5,8 @@
   "scripts": {
     "build": "node build.js",
     "watch": "node watch.js",
-    "pptx": "npx.cmd @marp-team/marp-cli presentation.md -o 삼육대학교_다낭IT봉사단_교원대_웹프로그래밍_평가보고서_v04.pptx --pptx --html --allow-local-files --no-stdin --browser-path \"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
-    "pdf": "npx.cmd @marp-team/marp-cli presentation.md -o 삼육대학교_다낭IT봉사단_교원대_웹프로그래밍_평가보고서_v04.pdf --pdf --html --allow-local-files --no-stdin --browser-path \"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "pptx": "npx.cmd @marp-team/marp-cli presentation.md -o 삼육대학교_다낭IT봉사단_교원대_웹프로그래밍_평가보고서.pptx --pptx --html --allow-local-files --no-stdin --browser-path \"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "pdf": "npx.cmd @marp-team/marp-cli presentation.md -o 삼육대학교_다낭IT봉사단_교원대_웹프로그래밍_평가보고서.pdf --pdf --html --allow-local-files --no-stdin --browser-path \"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
     "build:all": "node build.js && npm run pptx && npm run pdf"
   },
   "devDependencies": {

@@ -29,6 +29,20 @@ style: |
   line-height: 1.5;
   background-color: #ffffff;
   color: var(--slate-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  image-rendering: -webkit-optimize-contrast;
+  }
+
+  @media print {
+    section {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    img, svg {
+      image-rendering: high-quality !important;
+    }
   }
 
   /* PPT BIZCAM Style Header */

@@ -1,6 +1,7 @@
 @echo off
 chcp 65001 > nul
 cd /d "%~dp0"
+set "PATH=%ProgramFiles%\nodejs;%ProgramFiles(x86)%\nodejs;%APPDATA%\npm;%PATH%"
 echo [INFO] 슬라이드를 합쳐서 index.html로 빌드합니다...
 node build.js
 if %ERRORLEVEL% equ 0 (
