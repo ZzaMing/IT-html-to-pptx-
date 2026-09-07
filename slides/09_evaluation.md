@@ -16,7 +16,7 @@
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff7ed;">
 <img src="images/culture_1.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 24px; font-weight: 700; color: #81ff61; text-align: center; margin-top: 8px;">✨ 함께하는 즐거움, 문화 페스티벌</div>
+<div style="font-size: 24px; font-weight: 700; color: #ffaa29; text-align: center; margin-top: 8px;">✨ 함께하는 즐거움, 문화 페스티벌</div>
 </div>
 
 <!-- Polaroid 2: 딱지치기 -->
@@ -25,7 +25,7 @@
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #f0f9ff;">
 <img src="images/culture_2.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 24px; font-weight: 700; color: #91b2ff; text-align: center; margin-top: 8px;">🎲 K-전통놀이 윷놀이 한판!</div>
+<div style="font-size: 24px; font-weight: 700; color: #4c78e0; text-align: center; margin-top: 8px;">🎲 K-전통놀이 윷놀이 한판!</div>
 </div>
 
 <!-- Polaroid 3: 몸으로 말해요 -->
@@ -34,7 +34,7 @@
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #faf5ff;">
 <img src="images/culture_3.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 24px; font-weight: 700; color: #df9cf3; text-align: center; margin-top: 8px;">💡 상상력을 이어라! '이어그리기 대작전'</div>
+<div style="font-size: 24px; font-weight: 700; color: #c764e5; text-align: center; margin-top: 8px;">💡 상상력을 이어라! '이어그리기 대작전'</div>
 </div>
 
 <!-- Polaroid 4: 문화교류와 우정 -->
@@ -43,5 +43,5 @@
 <div style="height: 175px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff1f2;">
 <img src="images/culture_4.png" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 </div>
-<div style="font-size: 24px; font-weight: 700; color: #ff9797; text-align: center; margin-top: 16px;">📸 2주간의 소중한 추억</div>
+<div style="font-size: 24px; font-weight: 700; color: #f03030; text-align: center; margin-top: 16px;">📸 2주간의 소중한 추억</div>
 </div>
